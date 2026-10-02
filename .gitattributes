@@ -1,0 +1,4 @@
+*.stl binary
+*.step binary
+*.png binary
+*.md text eol=lf
