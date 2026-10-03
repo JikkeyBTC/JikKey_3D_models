@@ -1,0 +1,61 @@
+{
+  "serialized_step_valid": true,
+  "step_solid_count": 6,
+  "step_difference_mm3": 0.0,
+  "stl_parts": [
+    {
+      "name": "Base_White",
+      "triangles": 8276,
+      "closed_mesh": true
+    },
+    {
+      "name": "Lid_White",
+      "triangles": 4782,
+      "closed_mesh": true
+    },
+    {
+      "name": "Pill_And_Borders_Orange",
+      "triangles": 2888,
+      "closed_mesh": true
+    },
+    {
+      "name": "Clip_Orange",
+      "triangles": 472,
+      "closed_mesh": true
+    }
+  ],
+  "single_3mf_assembly": true,
+  "color_parts_aligned": true,
+  "lower_tray_unchanged_files": [
+    "Lower_Tray.stl",
+    "Lower_Tray.step"
+  ],
+  "upper_tray_included": false,
+  "files": [
+    {
+      "name": "Case_Open.step",
+      "bytes": 1613563,
+      "sha256": "62b9a86d2b762ed754e1648b9d80caf3332f1aad683a907d3a5af0b5e03e5b22"
+    },
+    {
+      "name": "Case_Open.stl",
+      "bytes": 3715846,
+      "sha256": "74fa63aae58ea85106f28478e545cb8e7cbc49152bfc929c5236b3264dda1963"
+    },
+    {
+      "name": "Case_Open_Color.3mf",
+      "bytes": 171152,
+      "sha256": "e0fa681d6fc02d02bc81da2063a59928c29fb675ec89a3ea2ce4d8e2f7dd288e"
+    },
+    {
+      "name": "Lower_Tray.step",
+      "bytes": 70239,
+      "sha256": "3b4854d895b2a457105b4f3f8c4ec9c815c3f09649eb5c39c16597d322cc7216"
+    },
+    {
+      "name": "Lower_Tray.stl",
+      "bytes": 95484,
+      "sha256": "748004d3a29872b0ec6ac12f50ece511e11708ac5e40c306c5d843651bdae812"
+    }
+  ]
+}

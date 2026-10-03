@@ -1,0 +1,42 @@
+{
+  "reference": "jikkey_case.3mf",
+  "original_lettering_removed": true,
+  "first_layer_height_mm": 0.2,
+  "previous_effective_bevel_mm": 1.5,
+  "effective_bevel_mm": 1.9,
+  "additional_bevel_mm": 0.4,
+  "bevel_degrees": 45,
+  "minimum_diagonal_wall_mm": 0.9192388155425119,
+  "border_dimensions_mm": [
+    72.0,
+    35.206949965432095
+  ],
+  "border_radius_mm": 5.679012345679012,
+  "border_line_width_mm": 1.4814814814814814,
+  "pill_dimensions_mm": [
+    28.39506172839506,
+    9.876543209876543
+  ],
+  "pill_line_width_mm": 1.2345679012345678,
+  "pill_left_filled": true,
+  "border_on_both_exterior_faces": true,
+  "parts": [
+    {
+      "name": "Base",
+      "removed_edge_mm3": 157.7097898293382,
+      "internal_contact_removed_mm3": 0.0,
+      "upper_hinges_unchanged": true
+    },
+    {
+      "name": "Lid",
+      "removed_edge_mm3": 147.43779047020703,
+      "internal_contact_removed_mm3": 0.0,
+      "upper_hinges_unchanged": true
+    }
+  ],
+  "closed_height_mm": 33.4,
+  "lower_tray_unchanged": true,
+  "lower_tray_seated_overlap_mm3": 0.0,
+  "lower_tray_lift_0_2mm_overlap_mm3": 0.3665454545453617,
+  "upper_tray_included": false
+}
