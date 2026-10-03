@@ -1,0 +1,82 @@
+{
+  "DiceBox_HiddenLock_Base": {
+    "triangles": 4204,
+    "vertices": 2104,
+    "edges": 6306,
+    "euler_characteristic": 2,
+    "closed_manifold": true,
+    "consistent_winding": true,
+    "connected_components": 1,
+    "bbox_mm": [
+      58.0,
+      58.0,
+      14.2
+    ],
+    "signed_volume_mm3": 18158.84378957658,
+    "step_mesh_volume_difference_mm3": -0.11821467986010248
+  },
+  "DiceBox_HiddenLock_Lid": {
+    "triangles": 6016,
+    "vertices": 3008,
+    "edges": 9024,
+    "euler_characteristic": 0,
+    "closed_manifold": true,
+    "consistent_winding": true,
+    "connected_components": 1,
+    "bbox_mm": [
+      58.0,
+      58.0,
+      9.8
+    ],
+    "signed_volume_mm3": 6181.863768514925,
+    "step_mesh_volume_difference_mm3": -0.13771410280605778
+  },
+  "OPTIONAL_HiddenLock_Base_Rim_Test": {
+    "triangles": 1808,
+    "vertices": 904,
+    "edges": 2712,
+    "euler_characteristic": 0,
+    "closed_manifold": true,
+    "consistent_winding": true,
+    "connected_components": 1,
+    "bbox_mm": [
+      58.0,
+      58.0,
+      10.4
+    ],
+    "signed_volume_mm3": 8750.032602978245,
+    "step_mesh_volume_difference_mm3": -0.05430123993937741
+  },
+  "OPTIONAL_HiddenLock_Joint_Base_Test": {
+    "triangles": 48,
+    "vertices": 26,
+    "edges": 72,
+    "euler_characteristic": 2,
+    "closed_manifold": true,
+    "consistent_winding": true,
+    "connected_components": 1,
+    "bbox_mm": [
+      14.0,
+      6.0,
+      10.4
+    ],
+    "signed_volume_mm3": 504.49748851299273,
+    "step_mesh_volume_difference_mm3": -1.1487007782307046e-05
+  },
+  "OPTIONAL_HiddenLock_Joint_Lid_Test": {
+    "triangles": 216,
+    "vertices": 110,
+    "edges": 324,
+    "euler_characteristic": 2,
+    "closed_manifold": true,
+    "consistent_winding": true,
+    "connected_components": 1,
+    "bbox_mm": [
+      14.0,
+      6.0,
+      9.8
+    ],
+    "signed_volume_mm3": 354.93215801663206,
+    "step_mesh_volume_difference_mm3": 0.000139490357298655
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "baseline": "Selected solid-sided 58x58x15.6 slim version",
+  "revised": "PLA hidden internal latch version",
+  "lid_per_side_hard_clearance_mm": {
+    "before": 0.25,
+    "after": 0.1
+  },
+  "nominal_axial_lid_play_mm": {
+    "before": 0.35,
+    "after": 0.05
+  },
+  "latch_insertion_deflection_mm": {
+    "before": 0.35,
+    "after": 0.3
+  },
+  "retaining_face_angle_from_horizontal_deg": {
+    "before": 45,
+    "after": 0
+  },
+  "externally_visible_latch_slots": {
+    "before": true,
+    "after": false
+  },
+  "guide_rib_nominal_interference_mm": 0.02,
+  "guide_rib_count": 8,
+  "panel_pocket_changed": false,
+  "dice_pockets_changed": false,
+  "overall_size_changed": false,
+  "old_and_new_parts_interchangeable": false,
+  "design_basis": "PLA, lid-to-body looseness; supplied video shows joint seam opening and closing. No physical dimensions measured from video.",
+  "limitations": "Unstrained reference geometry. Guide-rib interference is intentional (nominal 0.02 mm at rib tips); it requires local deformation/burnishing. PLA fit, lock force, fracture and zero real-world movement cannot be guaranteed by CAD or slicing. Prototype required."
+}
