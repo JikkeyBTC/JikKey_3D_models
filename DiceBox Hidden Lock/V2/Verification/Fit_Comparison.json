@@ -1,0 +1,54 @@
+{
+  "baseline": "Hidden Lock V1, user reports very easy separation",
+  "revised": "PLA Strong Lock V2 with eight reinforced hidden leaves",
+  "lid_per_side_hard_clearance_mm": {
+    "before": 0.1,
+    "after": 0.05
+  },
+  "nominal_axial_lid_play_mm": {
+    "before": 0.05,
+    "after": 0.05
+  },
+  "latch_insertion_deflection_mm": {
+    "before": 0.3,
+    "after": 0.5
+  },
+  "latch_count": {
+    "before": 4,
+    "after": 8
+  },
+  "leaf_thickness_mm": {
+    "before": 0.8,
+    "after": 1.0
+  },
+  "leaf_effective_load_length_mm": {
+    "before": 6.4,
+    "after": 7.2
+  },
+  "nominal_total_retaining_face_area_mm2": {
+    "before": 9.6,
+    "after": 32.0
+  },
+  "retaining_face_angle_from_horizontal_deg": {
+    "before": 0,
+    "after": 0
+  },
+  "externally_visible_latch_slots": {
+    "before": false,
+    "after": false
+  },
+  "guide_rib_nominal_interference_mm": {
+    "before": 0.02,
+    "after": 0.05
+  },
+  "guide_rib_count": {
+    "before": 8,
+    "after": 12
+  },
+  "panel_pocket_changed": false,
+  "dice_pockets_changed": false,
+  "overall_size_changed": false,
+  "old_and_new_parts_interchangeable": false,
+  "design_basis": "PLA. User can pull V1 lid and base apart with very little force. Physical cause is not proven; deeper engagement, eight leaves and lower lateral clearance address geometric retention sensitivity. Actual printed dimensions, hook condition and pull force were not measured.",
+  "limitations": "Unstrained reference geometry. Guide-rib interference is intentional (nominal 0.05 mm at rib tips); it requires local deformation/burnishing. PLA fit, lock force, fracture and zero real-world movement cannot be guaranteed by CAD or slicing. Prototype required."
+}
