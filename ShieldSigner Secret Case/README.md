@@ -1,5 +1,14 @@
 # ShieldSigner Secret Case
 
+## 디자인 버전
+
+- **[Pill Logo — 새 알약 로고 버전](Pill%20Logo/)**: 글자 없이 주황 테두리·알약 마크와 더 넓힌 외곽 면취를 적용했습니다. 아랫판 안착 홈 4개를 유지하며, 트레이는 아랫판만 제공합니다. STL·STEP·3MF와 출력 안내는 하위 폴더에 있습니다.
+- **기존 ShieldSigner 로고 버전**: 아래의 다운로드와 안내를 사용하세요. 탈착식 상·하판 트레이를 포함합니다.
+
+![새 Pill Logo 버전](Pill%20Logo/images/closed-preview.png)
+
+## 기존 ShieldSigner 로고 버전
+
 ShieldSigner를 위한 스크류리스 케이스와 탈착식 상·하판 트레이입니다. 아랫판 트레이 아래에는 일반 SIM 카드 2개와 microSD 카드 2개를 보관하는 숨겨진 공간이 있습니다.
 
 ![33.4 mm 높이의 닫힌 케이스](images/closed-preview.png)
