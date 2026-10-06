@@ -1,0 +1,35 @@
+{
+  "native_illustrator_stream_present": true,
+  "native_pdf_vectors_synchronized": true,
+  "compared_vector_shapes": 245,
+  "native_layer_print_flags": [
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "pdf_ocg_count": 5,
+  "fonts_outlined": true,
+  "external_images": 0,
+  "closed_cut_contours": 1,
+  "self_crossing_cut": false,
+  "crease_count": 12,
+  "cut_bounds_mm": [
+    164.8,
+    111.44999999999999
+  ],
+  "proposed_minimum_internal_mm": [
+    59.0,
+    59.0,
+    17.0
+  ],
+  "artwork_on_glue_tab": false,
+  "physical_stock_test": false,
+  "illustrator_application_open_test": false,
+  "official_product_name": "Entropy Box",
+  "product_illustration_dice": 25,
+  "dieline_unchanged_from_previous": true,
+  "limitation": "Paper caliper is assumed, not measured. Native stream structure/geometry and embedded PDF checked; no Adobe Illustrator application is installed to test opening or saving. Fold/crease production allowance and actual fit require a stock sample.",
+  "ai_sha256": "232c82a848ce6ed64d45a3fdac686b86f990cce39e8a095ccfd622d37f9dccfb"
+}
