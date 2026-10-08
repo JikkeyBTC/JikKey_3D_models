@@ -4,3 +4,4 @@
 *.png binary
 *.md text eol=lf
 *.glb binary
+*.blend binary
