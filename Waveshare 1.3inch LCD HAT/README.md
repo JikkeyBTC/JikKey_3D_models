@@ -1,30 +1,56 @@
-# Waveshare 1.3inch LCD HAT
+# Waveshare 1.3inch LCD HAT — 상세 모델
 
-240 × 240 LCD, 조이스틱과 버튼 3개가 있는 원본 Waveshare 1.3inch LCD HAT입니다. LCD 적층, 금속 프레임, 플렉스, 스위치, 뒷면 40핀 소켓을 분리했습니다.
+원본 파란색 240 × 240 LCD HAT를 제품 앞·뒷면 사진과 공식 회로도 기준으로 다시 만들었습니다. 조이스틱, 버튼 3개, LCD 적층과 필름 배선, 뒷면 부품 및 40핀 암 소켓을 개별 형상으로 분리했습니다.
 
-[STEP 다운로드](Waveshare_LCD_HAT_1_3.step) · [GLB 다운로드](Waveshare_LCD_HAT_1_3.glb)
+[STEP](Waveshare_LCD_HAT_1_3.step) · [재질 포함 GLB](Waveshare_LCD_HAT_1_3.glb) · [Blender 원본](Waveshare_LCD_HAT_1_3_Detail.blend)
 
-![Preview](preview.png)
+![전체 모델](preview.png)
 
-## KeyShot에서 사용하기
+## 사진을 기준으로 보강한 부분
 
-- **STEP**: CAD 곡면·솔리드 형상과 기본 부품 색상을 가져올 때 사용합니다. 확대 렌더에서 곡면 품질을 조정하고 KeyShot 재질을 직접 지정하기 좋습니다.
-- **GLB**: 메시 형상과 PBR 재질을 함께 가져올 때 사용합니다. 파일 하나로 이미지·재질 리소스를 전달할 수 있습니다.
-- STEP 좌표 단위는 **mm**, GLB 좌표 단위는 **m**입니다. GLB의 1 m는 1000 mm에 해당하며 형상의 실제 크기는 두 형식이 같습니다.
-- KeyShot Studio 2026은 STEP과 GLB를 지원합니다. glTF 재질에 OpenPBR가 추가된 **2025.3 이상**을 권장합니다. 이전 버전에서는 재질 표현이 달라질 수 있습니다.
-- STEP의 이미지 텍스처는 포함되지 않습니다. 가져온 뒤 조명·금속·플라스틱·렌즈 재질을 확인하고 필요에 맞게 조정하십시오.
-- 형상, STEP 재열기, GLB 구성과 내장 리소스를 검증했습니다. 실제 KeyShot 앱에서의 가져오기 시험은 수행하지 않았습니다.
+- 뒷면 저항 3개, 커패시터 C1, S8050 트랜지스터 Q1의 배치, 감싸는 전극과 곡면 납땜.
+- LCD의 얇은 금속 트레이, 접힌 가장자리, 검은 유리와 편광층, 슬롯을 통과하는 필름 배선 및 12개 접점.
+- 조이스틱의 성형 금속 덮개, 중앙 축과 단자, 세 버튼의 금속 절곡·플라스틱 누름부.
+- 40개 소켓의 열린 입구, 개별 스프링 접점과 굽힌 리드, 납땜.
+- 사진을 참고한 배선 곡선, 비아처럼 보이는 표면점과 얕은 솔더마스크 개구, 기판 앞·뒷면 인쇄. CAD 표면 형상과 색상·거칠기·노멀맵을 함께 제공합니다.
 
-[KeyShot 지원 형식](https://manuals.keyshot.com/kss2026/en-us/manual/supported-file-formats.html) · [glTF/OpenPBR 변경 사항](https://support.keyshot.com/en/knowledge-base/new-features-in-2025.3)
+모델은 570개의 CAD 부품 형상을 포함합니다. 배선 무늬를 맞추기 위해 CAD와 재질이 같은 위치 자료를 사용합니다.
 
-## 모델 범위
+![뒷면 회로와 헤더](underside.png)
 
-PCB 외곽 65 × 30.2 mm, 장착홀 중심 간격 58 × 23.2 mm, 홀 지름 3 mm입니다. PCB 두께 1.6 mm, LCD 적층 및 조이스틱·버튼·헤더 높이는 사진과 관련 패널 자료를 참고한 재구성 값입니다.
+![LCD 필름과 뒷면 부품 확대](flex-circuit-detail.png)
 
-GLB에는 기판 앞·뒷면의 인쇄·배선 무늬와 거칠기 이미지 4장이 내장되어 있습니다. 화면은 꺼진 상태이며 배선 무늬는 제작용 회로 데이터가 아닙니다.
+![조이스틱 확대](joystick-detail.png)
+
+![버튼 확대](button-detail.png)
+
+![암 소켓 확대](gpio-detail.png)
+
+## KeyShot·CAD·Blender에서 사용
+
+**KeyShot:** 기판 무늬와 재질을 함께 시작하려면 GLB를 가져오세요. 앞·뒷면 PBR 이미지와 금속 표면 맵이 내장되어 있습니다. STEP은 CAD 솔리드와 기본 색상을 전달하지만 이미지 텍스처와 조명은 포함하지 않습니다. 별도 [Textures](Textures/)도 제공합니다. [KeyShot 지원 형식](https://manuals.keyshot.com/kss2026/en-us/manual/supported-file-formats.html)에 STEP과 GLB가 안내되어 있습니다.
+
+**CAD:** STEP 단위는 mm입니다. 부품별 형상을 선택해 재질 지정이나 조립에 사용할 수 있습니다.
+
+앞면에서 조이스틱이 왼쪽, KEY1이 위인 기준으로 뒷면 소켓은 −Y 가장자리에 있습니다. 이 저장소의 Pi Zero 모델과 원점을 맞춰 조립할 때는 Pi를 Z축으로 180° 회전하면 두 GPIO 배열의 방향이 맞습니다.
+
+**Blender:** 원본 BLEND에는 이미지·재질과 6개 검사 장면의 카메라·조명이 포함되어 있습니다. Blender와 GLB 좌표 단위는 m이며, STEP과 실제 크기가 같습니다.
+
+## 치수와 정확도
+
+공식 치수인 PCB 65 × 30.2 mm, 장착홀 중심 간격 58 × 23.2 mm, 홀 지름 3 mm와 LCD 표시 영역 23.4 × 23.4 mm를 유지했습니다. GPIO는 2 × 20개, 2.54 mm 피치입니다.
+
+원작자의 CAD나 제조사의 PCB 제작 파일을 복제한 모델이 아닙니다. 실제 제품 사진과 회로도로 보이는 형상·부품 종류·표면 배선을 재구성했습니다. 기판 두께 1.6 mm, 부품 높이와 패키지·커넥터 내부 구조는 추정값입니다. 배선 무늬는 사진에 보이는 구간을 재구성한 시각 표현이며 제조용 Gerber나 전기적으로 검증된 라우팅 데이터가 아닙니다.
+
+FPC 접점의 0.70 mm 피치와 암 소켓 몸체 높이 8.5 mm는 사진에 맞춘 시각적 추정값입니다. 은색 패드와 접점은 사진의 표면색을 재현한 것이며 실제 도금 공정을 확인한 것은 아닙니다.
+
+모든 CAD 솔리드, 장착홀과 GPIO 배열을 검사하고 STEP을 다시 열었습니다. GLB와 Blender도 별도로 다시 열어 크기·재질·내장 이미지를 확인하고 GLB 소켓 40개의 입구가 막히지 않았는지 검사했습니다. 실제 KeyShot 앱에서의 가져오기 시험은 수행하지 않았습니다. 결과와 파일 해시는 [Verification.json](Verification.json)에 있습니다.
 
 ## 참고 자료
 
-- https://www.waveshare.com/wiki/1.3inch_LCD_HAT
-- https://www.waveshare.com/img/devkit/LCD/1.3inch-LCD-HAT/1.3inch-LCD-HAT-size.jpg
-- https://files.waveshare.com/upload/a/a6/1.3inch-LCD-HAT-Schematic.pdf
+- [Waveshare 공식 제품 및 사진](https://www.waveshare.com/product/raspberry-pi/displays/1.3inch-lcd-hat.htm)
+- [Waveshare 공식 사양](https://www.waveshare.com/wiki/1.3inch_LCD_HAT)
+- [공식 기계 치수](https://www.waveshare.com/img/devkit/LCD/1.3inch-LCD-HAT/1.3inch-LCD-HAT-size.jpg)
+- [공식 회로도](https://files.waveshare.com/upload/a/a6/1.3inch-LCD-HAT-Schematic.pdf)
+- [제품 앞·뒷면 사진](https://www.welectron.com/Waveshare-14972-13inch-LCD-HAT)
+- [Geometrick 렌더 참고](../SeedSigner/Reference/)
