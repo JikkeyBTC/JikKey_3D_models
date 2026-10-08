@@ -17,9 +17,15 @@ Geometrick의 [확대 분해 렌더](../SeedSigner/Reference/13_Exploded_Closeup
 - 은색 40핀 GPIO, 양끝 가공, 플라스틱 헤더 홈과 핀 주위 납땜 곡면.
 - 6144 × 2836 해상도의 기판 앞·뒷면 인쇄, 표면 요철과 거칠기. 금속에는 미세한 결을 추가했습니다.
 
-기본 모델은 1,562개의 부품 형상, 1,605개의 솔리드를 포함합니다. 이전 모델은 662개의 부품 형상이었습니다.
+기본 모델은 1,581개의 부품 형상과 1,624개의 솔리드를 포함합니다. USB·HDMI는 얇은 금속판의 둥근 절곡부, 벌어진 입구 테두리, 실제 사진을 참고한 스프링 구멍과 뒤쪽 단자 구조를 재제작했습니다.
 
 ![커넥터와 납땜 확대](connector-detail.png)
+
+![Micro USB 입구와 외피 확대](usb-port-detail.png)
+
+![mini HDMI 입구와 외피 확대](hdmi-port-detail.png)
+
+[USB 뒤쪽 단자 확대](port-rear-detail.png) · [HDMI 뒤쪽 단자 확대](hdmi-rear-detail.png)
 
 ![GPIO 확대](gpio-detail.png)
 
@@ -29,7 +35,7 @@ Geometrick의 [확대 분해 렌더](../SeedSigner/Reference/13_Exploded_Closeup
 
 **KeyShot:** 미세한 기판 무늬와 금속 재질까지 함께 시작하려면 GLB를 가져오세요. 앞·뒷면 색상, 거칠기와 노멀맵, 금속 표면 맵이 파일 안에 포함되어 있습니다. STEP은 상세 CAD 형상을 전달하지만 이미지 텍스처와 렌더 조명은 포함하지 않으므로 KeyShot에서 재질을 지정해야 합니다. 별도 맵은 [Textures](Textures/)에 있습니다.
 
-**Blender:** 원본 BLEND에 재질과 이미지가 내장되어 있고 전체·커넥터·GPIO·뒷면 카메라와 조명이 준비되어 있습니다.
+**Blender:** 원본 BLEND에 재질과 이미지가 내장되어 있고 전체·커넥터·GPIO·뒷면 카메라와 조명이 준비되어 있습니다. 커넥터 장면에는 USB·HDMI 앞면과 뒤쪽 단자를 확인할 확대 카메라도 포함했습니다.
 
 STEP 좌표는 mm, GLB와 Blender 내부 좌표는 m입니다. 실제 기판 크기는 세 형식에서 동일합니다.
 
@@ -41,7 +47,7 @@ PCB 외곽 65 × 30 mm, 장착홀 중심 간격 58 × 23 mm, 홀 지름 2.75 mm,
 
 원작자의 CAD 파일을 복제한 모델이 아닙니다. 제공된 렌더와 Raspberry Pi Zero v1.3 제품 사진을 참고해 형상과 표면을 재구성했습니다. PCB 두께 1.0 mm, 작은 부품 위치·높이, 커넥터 내부·납땜과 회로 표면 무늬는 재구성 값입니다. 회로 무늬는 제조용 배선·드릴 데이터가 아닙니다.
 
-모든 CAD 솔리드의 유효성과 장착홀·GPIO를 검사하고 두 STEP을 다시 열었습니다. 두 GLB와 Blender 원본도 Blender에서 독립적으로 다시 열어 크기·재질·내장 이미지를 확인했습니다. 실제 KeyShot 앱에서의 가져오기 검사는 수행하지 않았습니다. [Verification.json](Verification.json)에 결과와 파일 해시가 있습니다.
+모든 CAD 솔리드의 유효성과 장착홀·GPIO를 검사하고 두 STEP을 다시 열었습니다. 두 GLB와 Blender 원본도 Blender에서 독립적으로 다시 열어 크기·재질·내장 이미지를 확인했습니다. 내보낸 GLB에서도 세 포트의 입구가 열려 있는지, USB 5핀·mini HDMI 19핀 접점과 간격이 유지되는지 검사했습니다. 실제 KeyShot 앱에서의 가져오기 검사는 수행하지 않았습니다. [Verification.json](Verification.json)에 결과와 파일 해시가 있습니다.
 
 ## 출처
 
@@ -49,3 +55,5 @@ PCB 외곽 65 × 30 mm, 장착홀 중심 간격 58 × 23 mm, 홀 지름 2.75 mm,
 - [Raspberry Pi Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/)
 - [Pi Zero v1.3 기계 도면](https://files.waveshare.com/upload/9/9b/Rpi_MECH_Zero_1p3.pdf)
 - [Adafruit Pi Zero v1.3 제품 사진](https://www.adafruit.com/product/2885)
+- [동종 Micro-B 커넥터 도면 / GCT](https://gct.co/files/drawings/usb3076.pdf)
+- [동종 mini HDMI Type C 도면 / Würth](https://www.we-online.com/components/products/datasheet/685119136923.pdf)
