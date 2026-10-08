@@ -1,0 +1,39 @@
+{
+  "verification_date": "2026-10-09",
+  "geometry_checks": {
+    "board_bounds_mm": [
+      65,
+      30.200000000000003,
+      1.6
+    ],
+    "mounting_holes_clear": 4,
+    "gpio_count": 40,
+    "all_solids_valid": true,
+    "objects": 546,
+    "step": {
+      "reimported_shapes": 553,
+      "solids_in_hierarchy": 1092,
+      "valid": true
+    }
+  },
+  "files": {
+    "preview.png": {
+      "bytes": 4238984,
+      "sha256": "13ddf664d5316e299f876367615822e6394cfac2ca321a6eec3e032c79833ced"
+    },
+    "README.md": {
+      "bytes": 2310,
+      "sha256": "884e3258bfbd5a027742d4dc4192146219a2d67e40dab11672b3d43f09c04369"
+    },
+    "Waveshare_LCD_HAT_1_3.glb": {
+      "bytes": 21541740,
+      "sha256": "5b492f3950d3579c87567c9517b7a0947f3eebc89baea121d870ef4da820324b",
+      "embedded_images": 4,
+      "mesh_count": 546
+    },
+    "Waveshare_LCD_HAT_1_3.step": {
+      "bytes": 7604340,
+      "sha256": "54cebcdb638b8274784377208ed3dc5466af3ae074788bd4b715a7dee73bf57e"
+    }
+  }
+}

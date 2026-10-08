@@ -3,3 +3,4 @@
 *.3mf binary
 *.png binary
 *.md text eol=lf
+*.glb binary

@@ -1,0 +1,54 @@
+{
+  "verification_date": "2026-10-09",
+  "geometry_checks": {
+    "board_bounds_mm": [
+      65,
+      30,
+      1
+    ],
+    "mounting_holes_clear": 4,
+    "gpio_count": 40,
+    "all_solids_valid": true,
+    "objects": 662,
+    "bare_step": {
+      "reimported_shapes": 638,
+      "solids_in_hierarchy": 1292,
+      "valid": true
+    },
+    "header_step": {
+      "reimported_shapes": 719,
+      "solids_in_hierarchy": 1454,
+      "valid": true
+    }
+  },
+  "files": {
+    "Bare/Raspberry_Pi_Zero_v1_3_bare.glb": {
+      "bytes": 24977484,
+      "sha256": "f398a0856d2f5523758cc1b04b099e196ad70561454ac1efbd01c76156821fa9",
+      "embedded_images": 4,
+      "mesh_count": 583
+    },
+    "Bare/Raspberry_Pi_Zero_v1_3_bare.step": {
+      "bytes": 12106858,
+      "sha256": "8ccbba53cf07335ec7fed1798c648a7a52d4334067373207b690fa29dd56e405"
+    },
+    "preview.png": {
+      "bytes": 4765492,
+      "sha256": "807632399f1b90e528c01cb29895436d1a6eca26bb1fc5020854dc9e89fd7d53"
+    },
+    "Raspberry_Pi_Zero_v1_3_with_GPIO.glb": {
+      "bytes": 25498120,
+      "sha256": "895a0de59d4ad19c0cfc2706bff067bbbda7c8a10cd092a9b4f6c8579eadf7b7",
+      "embedded_images": 4,
+      "mesh_count": 664
+    },
+    "Raspberry_Pi_Zero_v1_3_with_GPIO.step": {
+      "bytes": 13181805,
+      "sha256": "b60789754382c58ea8e541e80236680969b30cbed5861cb26a153e6de70e035d"
+    },
+    "README.md": {
+      "bytes": 2419,
+      "sha256": "1e35fc0cbdaaa76785a53d2d114ebf7279bf06973fbcc4a4b9cb28e32a4bc71f"
+    }
+  }
+}

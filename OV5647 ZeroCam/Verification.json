@@ -1,0 +1,67 @@
+{
+  "verification_date": "2026-10-09",
+  "geometry_checks": {
+    "board": "OV5647_ZeroCam",
+    "objects": 291,
+    "all_BRep_valid": true,
+    "FPC_outline_mm": [
+      11.5,
+      59.7,
+      0.15
+    ],
+    "camera_housing_xy_mm": [
+      8.499999999999996,
+      8.500000000000007
+    ],
+    "overall_bounds_mm": [
+      11.5,
+      59.70000000000001,
+      5.1
+    ],
+    "optical_axis_model_mm": [
+      0,
+      0
+    ],
+    "contact_face": "rear_negative_Z",
+    "lens_face": "front_positive_Z",
+    "contact_count": 22,
+    "contact_pitch_mm": 0.5,
+    "lens_carrier_hollow": true,
+    "square_top_corner_closed": true,
+    "carrier_sensor_collision_mm3": 0,
+    "STEP_roundtrip": {
+      "valid": true,
+      "shapes": 298,
+      "solids_in_hierarchy": 582
+    },
+    "native_roundtrip": {
+      "valid": true,
+      "named_parts": 291
+    },
+    "elapsed_seconds": 19.19
+  },
+  "files": {
+    "lens-detail.png": {
+      "bytes": 4659878,
+      "sha256": "7cb3d5b2d3b5f52c74f651f57864512eed6fedfa9039373dbba661b75920509f"
+    },
+    "OV5647_ZeroCam.glb": {
+      "bytes": 1655768,
+      "sha256": "519b833b844601fc2f82beafafd5a9d851f8f399cbbe1df227847bae07012413",
+      "embedded_images": 0,
+      "mesh_count": 291
+    },
+    "OV5647_ZeroCam.step": {
+      "bytes": 5425428,
+      "sha256": "d6f0d9757ff738f8255e0b86c31a86748ea8cbc0255943bceec2a018908dd22c"
+    },
+    "preview.png": {
+      "bytes": 5662243,
+      "sha256": "b96ab1e27aa3d0bd2a2f88e0d6c66c2259e6d6a70d9f39d5ba1300028dd407da"
+    },
+    "README.md": {
+      "bytes": 2607,
+      "sha256": "44a0152ba74ad3d9e9bd04fa66d19c28fa39e255c5439956b9727132745503c9"
+    }
+  }
+}
