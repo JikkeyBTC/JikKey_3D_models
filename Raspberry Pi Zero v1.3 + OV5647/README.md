@@ -2,7 +2,13 @@
 
 상세 Pi Zero v1.3과 일체형 OV5647 ZeroCam을 실제 크기로 조립한 한 모델입니다. 카메라 헤드는 Pi 밑면에 붙고 렌즈는 아래(−Z)를 향합니다. 필름은 Pi 오른쪽 가장자리를 감싸 올라가 상면 CSI 소켓으로 들어갑니다. 40핀 GPIO 헤더가 포함되어 있습니다.
 
-[STEP](Raspberry_Pi_Zero_v1_3_OV5647_Mounted.step) · [재질 포함 GLB](Raspberry_Pi_Zero_v1_3_OV5647_Mounted.glb) · [Blender 원본](Raspberry_Pi_Zero_v1_3_OV5647_Mounted.blend)
+필름은 세로 직선 구간이 없는 **연속 반타원 곡선**으로 Pi 가장자리를 돌아갑니다. 중립면 길이 59.7 mm와 카메라·단자·소형 부품의 위치를 유지하면서 유연한 필름과 배선 44개만 새 곡면으로 재구성했습니다.
+
+[STEP](Raspberry_Pi_Zero_v1_3_OV5647_Mounted.step) · [재질 포함 GLB](Raspberry_Pi_Zero_v1_3_OV5647_Mounted.glb.zip) · [Blender 원본](Raspberry_Pi_Zero_v1_3_OV5647_Mounted.blend)
+
+GLB는 전체 디테일을 유지하기 위해 ZIP으로 제공합니다. 압축을 해제한 뒤 안의 `.glb` 파일을 가져오십시오. STEP과 Blender 파일은 그대로 열 수 있습니다.
+
+
 
 ![밑면 카메라와 필름](underside.png)
 
