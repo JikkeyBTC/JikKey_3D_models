@@ -1,0 +1,139 @@
+{
+  "description": "Generic geometry-only core 3MF; explicitly oriented PETG and TPU print parts. Select printer and filament settings in your slicer.",
+  "title": "Curtain box camera mount - print parts",
+  "objects": [
+    {
+      "stl": "../STL/01_body.stl",
+      "material": "PETG",
+      "name": "body",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        10,
+        10,
+        0
+      ]
+    },
+    {
+      "stl": "../STL/03_moving_foot.stl",
+      "material": "PETG",
+      "name": "moving_foot",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        69,
+        10,
+        0
+      ]
+    },
+    {
+      "stl": "../STL/02_screw.stl",
+      "material": "PETG",
+      "name": "screw",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        128,
+        10,
+        0
+      ]
+    },
+    {
+      "stl": "../STL/05_camera_plate.stl",
+      "material": "PETG",
+      "name": "camera_plate",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        128,
+        63,
+        0
+      ]
+    },
+    {
+      "stl": "../STL/04_retaining_clip.stl",
+      "material": "PETG",
+      "name": "retaining_clip",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        130,
+        154,
+        0
+      ]
+    },
+    {
+      "stl": "../STL/06_TPU_pad.stl",
+      "material": "TPU",
+      "name": "pad_fixed",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        10,
+        10,
+        0
+      ]
+    },
+    {
+      "stl": "../STL/06_TPU_pad.stl",
+      "material": "TPU",
+      "name": "pad_moving",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        104,
+        10,
+        0
+      ]
+    }
+  ]
+}

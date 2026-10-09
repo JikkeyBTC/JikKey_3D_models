@@ -1,8 +1,10 @@
 # JikKey 3D Models
 
-Printable models, STEP geometry and rendering assets for JikKey, ShieldSigner, and DiceBox.
+Printable models, STEP geometry and rendering assets for JikKey, ShieldSigner, DiceBox, and camera mounts.
 
 - [Entropy Box — Paper Package](./Entropy%20Box/Paper%20Package/): custom carton with AI/PNG/PDF artwork and dielines, production print files and a folded preview for the 58×58×15.6 mm Entropy Box.
+
+- [Curtain Box Camera Mount](./Curtain%20Box%20Camera%20Mount/): adjustable 145–215 mm pressure mount with separate PETG parts, two TPU pads, thread-fit coupons, print-oriented STL/STEP and 3MF layouts; camera plate dimensions follow the supplied reference, with C250 fit and physical printing untested.
 
 - [ShieldSigner Secret Case](./ShieldSigner%20Secret%20Case/): screwless case with removable upper and lower trays, including hidden SIM and microSD storage.
 - [DiceBox Hidden Lock — Strong Lock V2](./DiceBox%20Hidden%20Lock/V2/): a 58 × 58 × 15.6 mm PLA dice shaker for twenty-five 5 mm dice and a 50 × 50 × 2 mm clear panel, with eight reinforced concealed lid latches.

@@ -1,0 +1,41 @@
+{
+  "description": "Generic geometry-only core 3MF assembly preview. This layout shows assembly placement and is not a print layout.",
+  "title": "Curtain box camera mount - assembled preview",
+  "objects": [
+    {
+      "stl": "_build/assembled/01_body.stl",
+      "material": "PETG",
+      "name": "body"
+    },
+    {
+      "stl": "_build/assembled/02_screw.stl",
+      "material": "PETG",
+      "name": "screw"
+    },
+    {
+      "stl": "_build/assembled/03_moving_foot.stl",
+      "material": "PETG",
+      "name": "moving_foot"
+    },
+    {
+      "stl": "_build/assembled/04_retaining_clip.stl",
+      "material": "PETG",
+      "name": "retaining_clip"
+    },
+    {
+      "stl": "_build/assembled/05_camera_plate.stl",
+      "material": "PETG",
+      "name": "camera_plate"
+    },
+    {
+      "stl": "_build/assembled/06_TPU_pad_fixed.stl",
+      "material": "TPU",
+      "name": "pad_fixed"
+    },
+    {
+      "stl": "_build/assembled/07_TPU_pad_moving.stl",
+      "material": "TPU",
+      "name": "pad_moving"
+    }
+  ]
+}

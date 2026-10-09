@@ -1,0 +1,302 @@
+{
+  "packages": [
+    {
+      "file": "3MF/CurtainBox_Mount_Print_PETG.3mf",
+      "objects": [
+        {
+          "name": "body",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            10.0,
+            10.0,
+            0.0
+          ],
+          "stl": "STL/01_body.stl",
+          "vertices": 4208,
+          "triangles": 8428,
+          "bounds_min_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds_max_mm": [
+            47.0,
+            82.0,
+            110.0
+          ],
+          "size_mm": [
+            47.0,
+            82.0,
+            110.0
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 286430.50117987633
+        },
+        {
+          "name": "moving_foot",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            69.0,
+            10.0,
+            0.0
+          ],
+          "stl": "STL/03_moving_foot.stl",
+          "vertices": 979,
+          "triangles": 1954,
+          "bounds_min_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds_max_mm": [
+            47.0,
+            82.0,
+            129.6999969482422
+          ],
+          "size_mm": [
+            47.0,
+            82.0,
+            129.6999969482422
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 69267.18352724572
+        },
+        {
+          "name": "screw",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            128.0,
+            10.0,
+            0.0
+          ],
+          "stl": "STL/02_screw.stl",
+          "vertices": 10234,
+          "triangles": 20464,
+          "bounds_min_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds_max_mm": [
+            35.99440383911133,
+            36.0,
+            120.0
+          ],
+          "size_mm": [
+            35.99440383911133,
+            36.0,
+            120.0
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 45852.900754183145
+        },
+        {
+          "name": "camera_plate",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            128.0,
+            63.0,
+            0.0
+          ],
+          "stl": "STL/05_camera_plate.stl",
+          "vertices": 4410,
+          "triangles": 8860,
+          "bounds_min_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds_max_mm": [
+            82.0,
+            81.9745101928711,
+            12.0
+          ],
+          "size_mm": [
+            82.0,
+            81.9745101928711,
+            12.0
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 24436.9831799639
+        },
+        {
+          "name": "retaining_clip",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            130.0,
+            154.0,
+            0.0
+          ],
+          "stl": "STL/04_retaining_clip.stl",
+          "vertices": 376,
+          "triangles": 748,
+          "bounds_min_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds_max_mm": [
+            18.0,
+            16.791431427001953,
+            2.200000047683716
+          ],
+          "size_mm": [
+            18.0,
+            16.791431427001953,
+            2.200000047683716
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 301.7918218745348
+        }
+      ],
+      "units": "millimeter",
+      "printer_settings": false,
+      "support_settings": false,
+      "support_free_verified": false
+    },
+    {
+      "file": "3MF/CurtainBox_Mount_Print_TPU.3mf",
+      "objects": [
+        {
+          "name": "pad_fixed",
+          "material": "TPU",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            10.0,
+            10.0,
+            0.0
+          ],
+          "stl": "STL/06_TPU_pad.stl",
+          "vertices": 64,
+          "triangles": 124,
+          "bounds_min_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds_max_mm": [
+            82.0,
+            47.0,
+            3.0
+          ],
+          "size_mm": [
+            82.0,
+            47.0,
+            3.0
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 9904.800263404843
+        },
+        {
+          "name": "pad_moving",
+          "material": "TPU",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            104.0,
+            10.0,
+            0.0
+          ],
+          "stl": "STL/06_TPU_pad.stl",
+          "vertices": 64,
+          "triangles": 124,
+          "bounds_min_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds_max_mm": [
+            82.0,
+            47.0,
+            3.0
+          ],
+          "size_mm": [
+            82.0,
+            47.0,
+            3.0
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 9904.800263404843
+        }
+      ],
+      "units": "millimeter",
+      "printer_settings": false,
+      "support_settings": false,
+      "support_free_verified": false
+    }
+  ]
+}

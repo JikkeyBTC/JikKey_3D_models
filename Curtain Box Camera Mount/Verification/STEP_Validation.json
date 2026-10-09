@@ -1,0 +1,169 @@
+{
+  "parts": [
+    {
+      "file": "STEP/01_body.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 286411.3056000918,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          47.0,
+          82.0,
+          110.0
+        ]
+      ],
+      "max_STL_bounds_difference_mm": 0.0,
+      "STL_volume_relative_difference": 6.702102678627186e-05
+    },
+    {
+      "file": "STEP/02_screw.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 45875.75125809442,
+      "bounds_mm": [
+        [
+          3.090860900556436e-13,
+          0.0,
+          0.0
+        ],
+        [
+          35.994405276015,
+          36.0,
+          120.0
+        ]
+      ],
+      "max_STL_bounds_difference_mm": 1.4369036733796747e-06,
+      "STL_volume_relative_difference": 0.0004980954705834866
+    },
+    {
+      "file": "STEP/03_moving_foot.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 69266.1834232931,
+      "bounds_mm": [
+        [
+          1.191269305423e-14,
+          0.0,
+          0.0
+        ],
+        [
+          47.0,
+          82.0,
+          129.7
+        ]
+      ],
+      "max_STL_bounds_difference_mm": 3.0517578011313162e-06,
+      "STL_volume_relative_difference": 1.4438560105344986e-05
+    },
+    {
+      "file": "STEP/04_retaining_clip.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 301.9412835541456,
+      "bounds_mm": [
+        [
+          0.0,
+          -3.481659405224491e-13,
+          0.0
+        ],
+        [
+          18.0,
+          16.791431272067,
+          2.2
+        ]
+      ],
+      "max_STL_bounds_difference_mm": 1.5493495197915763e-07,
+      "STL_volume_relative_difference": 0.0004950024648883413
+    },
+    {
+      "file": "STEP/05_camera_plate.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 24446.978676330273,
+      "bounds_mm": [
+        [
+          0.0,
+          -4.760636329592671e-13,
+          0.0
+        ],
+        [
+          82.0,
+          81.97451292406646,
+          12.0
+        ]
+      ],
+      "max_STL_bounds_difference_mm": 2.7311953658681887e-06,
+      "STL_volume_relative_difference": 0.00040886428129668326
+    },
+    {
+      "file": "STEP/06_TPU_pad.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 9904.800000000007,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          82.0,
+          47.0,
+          3.0
+        ]
+      ],
+      "max_STL_bounds_difference_mm": 0.0,
+      "STL_volume_relative_difference": 2.659365519799142e-08
+    },
+    {
+      "file": "Optional_Tests/fit_nut.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 10284.930390231852,
+      "bounds_mm": [
+        [
+          0.0,
+          1.1723955140041653e-13,
+          0.0
+        ],
+        [
+          34.0,
+          33.98943218802788,
+          18.0
+        ]
+      ],
+      "max_STL_bounds_difference_mm": 1.1005463420588057e-06,
+      "STL_volume_relative_difference": 0.00044193995676079106
+    },
+    {
+      "file": "Optional_Tests/fit_screw.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 15850.087374291896,
+      "bounds_mm": [
+        [
+          3.090860900556436e-13,
+          0.0,
+          0.0
+        ],
+        [
+          35.994405276015,
+          36.0,
+          31.0
+        ]
+      ],
+      "max_STL_bounds_difference_mm": 1.4369036733796747e-06,
+      "STL_volume_relative_difference": 0.0004983616427714527
+    }
+  ],
+  "assembly": {
+    "file": "Reference/CurtainBox_Mount_Assembly_REFERENCE.step",
+    "valid_solids": 7
+  },
+  "native_CAD_valid_solids": 7
+}

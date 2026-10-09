@@ -1,0 +1,507 @@
+{
+  "STLs": [
+    {
+      "stl": "STL/01_body.stl",
+      "vertices": 4208,
+      "triangles": 8428,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        47.0,
+        82.0,
+        110.0
+      ],
+      "size_mm": [
+        47.0,
+        82.0,
+        110.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_shared_edges": 0,
+      "signed_volume_mm3": 286430.50117987633,
+      "sha256": "d070f911a5b718ce9bb993af330676ec38dd404ae843a670de64ad5be1208ac2"
+    },
+    {
+      "stl": "STL/02_screw.stl",
+      "vertices": 10234,
+      "triangles": 20464,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        35.99440383911133,
+        36.0,
+        120.0
+      ],
+      "size_mm": [
+        35.99440383911133,
+        36.0,
+        120.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_shared_edges": 0,
+      "signed_volume_mm3": 45852.900754183145,
+      "sha256": "43ec0f33a0f41fbf07738bf57ab29cd20d529af257d400bb9093ca443e6ce61f"
+    },
+    {
+      "stl": "STL/03_moving_foot.stl",
+      "vertices": 979,
+      "triangles": 1954,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        47.0,
+        82.0,
+        129.6999969482422
+      ],
+      "size_mm": [
+        47.0,
+        82.0,
+        129.6999969482422
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_shared_edges": 0,
+      "signed_volume_mm3": 69267.18352724572,
+      "sha256": "51bdbf1c1d0beff414074abd0f8f21944f63ec2af785a9fa12a1ec1ead2c2a2d"
+    },
+    {
+      "stl": "STL/04_retaining_clip.stl",
+      "vertices": 376,
+      "triangles": 748,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        18.0,
+        16.791431427001953,
+        2.200000047683716
+      ],
+      "size_mm": [
+        18.0,
+        16.791431427001953,
+        2.200000047683716
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_shared_edges": 0,
+      "signed_volume_mm3": 301.7918218745348,
+      "sha256": "b427d387ab10c8f6df95a8c72e1730cacf94bf2c02cf942e7d8a42cff4590759"
+    },
+    {
+      "stl": "STL/05_camera_plate.stl",
+      "vertices": 4410,
+      "triangles": 8860,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        82.0,
+        81.9745101928711,
+        12.0
+      ],
+      "size_mm": [
+        82.0,
+        81.9745101928711,
+        12.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_shared_edges": 0,
+      "signed_volume_mm3": 24436.9831799639,
+      "sha256": "1cf9bd7f3a697a2477e52437458336172c7e3629940947ea0a870a6cc1008016"
+    },
+    {
+      "stl": "STL/06_TPU_pad.stl",
+      "vertices": 64,
+      "triangles": 124,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        82.0,
+        47.0,
+        3.0
+      ],
+      "size_mm": [
+        82.0,
+        47.0,
+        3.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_shared_edges": 0,
+      "signed_volume_mm3": 9904.800263404843,
+      "sha256": "5fb19a3ebcb1d5ab5e317a96615d322d8f63f5bee8fb22c11c8903182bebcd31"
+    },
+    {
+      "stl": "Optional_Tests/fit_nut.stl",
+      "vertices": 1393,
+      "triangles": 2786,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        34.0,
+        33.98943328857422,
+        18.0
+      ],
+      "size_mm": [
+        34.0,
+        33.98943328857422,
+        18.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_shared_edges": 0,
+      "signed_volume_mm3": 10280.385068539905,
+      "sha256": "76dae01c65301199e073858e3238c2f58f56e3fea51b84e900689dfc51afc3cd"
+    },
+    {
+      "stl": "Optional_Tests/fit_screw.stl",
+      "vertices": 2493,
+      "triangles": 4982,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        35.99440383911133,
+        36.0,
+        31.0
+      ],
+      "size_mm": [
+        35.99440383911133,
+        36.0,
+        31.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_shared_edges": 0,
+      "signed_volume_mm3": 15842.188298709973,
+      "sha256": "4b263126857a7698354a2c5e7d5943f64eb80120c688f7048144024c2c44ce09"
+    }
+  ],
+  "packages": [
+    {
+      "file": "3MF/CurtainBox_Mount_Print_PETG.3mf",
+      "sha256": "551f944520b8d04e004ddbea1fc1f48cce3f12a90e0f211ccdc2217c9dddb2e7",
+      "objects": [
+        {
+          "name": "body",
+          "triangles": 8428,
+          "bounds_mm": [
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              57.0,
+              92.0,
+              110.0
+            ]
+          ]
+        },
+        {
+          "name": "moving_foot",
+          "triangles": 1954,
+          "bounds_mm": [
+            [
+              69.0,
+              10.0,
+              0.0
+            ],
+            [
+              116.0,
+              92.0,
+              129.699997
+            ]
+          ]
+        },
+        {
+          "name": "screw",
+          "triangles": 20464,
+          "bounds_mm": [
+            [
+              128.0,
+              10.0,
+              0.0
+            ],
+            [
+              163.9944038,
+              46.0,
+              120.0
+            ]
+          ]
+        },
+        {
+          "name": "camera_plate",
+          "triangles": 8860,
+          "bounds_mm": [
+            [
+              128.0,
+              63.0,
+              0.0
+            ],
+            [
+              210.0,
+              144.9745102,
+              12.0
+            ]
+          ]
+        },
+        {
+          "name": "retaining_clip",
+          "triangles": 748,
+          "bounds_mm": [
+            [
+              130.0,
+              154.0,
+              0.0
+            ],
+            [
+              148.0,
+              170.7914314,
+              2.20000005
+            ]
+          ]
+        }
+      ],
+      "units": "millimeter",
+      "zip_xml_valid": true,
+      "print_bed_contact_verified": true,
+      "print_XY_overlap_verified": true,
+      "support_free_verified": false
+    },
+    {
+      "file": "3MF/CurtainBox_Mount_Print_TPU.3mf",
+      "sha256": "bb06b0f38eaeab6cefeb73f48265eeedccba370b86109263e31ce7df66224258",
+      "objects": [
+        {
+          "name": "pad_fixed",
+          "triangles": 124,
+          "bounds_mm": [
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              92.0,
+              57.0,
+              3.0
+            ]
+          ]
+        },
+        {
+          "name": "pad_moving",
+          "triangles": 124,
+          "bounds_mm": [
+            [
+              104.0,
+              10.0,
+              0.0
+            ],
+            [
+              186.0,
+              57.0,
+              3.0
+            ]
+          ]
+        }
+      ],
+      "units": "millimeter",
+      "zip_xml_valid": true,
+      "print_bed_contact_verified": true,
+      "print_XY_overlap_verified": true,
+      "support_free_verified": false
+    },
+    {
+      "file": "Reference/CurtainBox_Mount_Assembly_REFERENCE.3mf",
+      "sha256": "8587e3fadd10a13f858fbf66637d1714fed89362eb9e8b9db33cefc43a297cd5",
+      "objects": [
+        {
+          "name": "body",
+          "triangles": 8428,
+          "bounds_mm": [
+            [
+              0.0,
+              -41.0,
+              -1.0658141e-14
+            ],
+            [
+              110.0,
+              41.0,
+              47.0
+            ]
+          ]
+        },
+        {
+          "name": "screw",
+          "triangles": 20464,
+          "bounds_mm": [
+            [
+              22.0,
+              -18.0,
+              10.0055943
+            ],
+            [
+              142.0,
+              18.0,
+              45.9944038
+            ]
+          ]
+        },
+        {
+          "name": "moving_foot",
+          "triangles": 1954,
+          "bounds_mm": [
+            [
+              14.3000002,
+              -41.0,
+              0.0
+            ],
+            [
+              144.0,
+              41.0,
+              47.0
+            ]
+          ]
+        },
+        {
+          "name": "retaining_clip",
+          "triangles": 748,
+          "bounds_mm": [
+            [
+              135.399994,
+              -9.0,
+              20.2057705
+            ],
+            [
+              137.600006,
+              9.0,
+              36.9972038
+            ]
+          ]
+        },
+        {
+          "name": "camera_plate",
+          "triangles": 8860,
+          "bounds_mm": [
+            [
+              14.0,
+              -40.9872551,
+              -12.0
+            ],
+            [
+              96.0,
+              40.9872551,
+              0.0
+            ]
+          ]
+        },
+        {
+          "name": "pad_fixed",
+          "triangles": 124,
+          "bounds_mm": [
+            [
+              -3.0,
+              -41.0,
+              -2.13162821e-14
+            ],
+            [
+              5.26072512e-14,
+              41.0,
+              47.0
+            ]
+          ]
+        },
+        {
+          "name": "pad_moving",
+          "triangles": 124,
+          "bounds_mm": [
+            [
+              144.0,
+              -41.0,
+              -1.92734724e-14
+            ],
+            [
+              147.0,
+              41.0,
+              47.0
+            ]
+          ]
+        }
+      ],
+      "units": "millimeter",
+      "zip_xml_valid": true,
+      "print_bed_contact_verified": false,
+      "print_XY_overlap_verified": false,
+      "support_free_verified": false
+    },
+    {
+      "file": "Optional_Tests/Thread_Fit_Test.3mf",
+      "sha256": "df0841d6aa5ad0de45d396e18c260bd132909eefc1e275db31e3974b042ac9d6",
+      "objects": [
+        {
+          "name": "fit_nut",
+          "triangles": 2786,
+          "bounds_mm": [
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              44.0,
+              43.9894333,
+              18.0
+            ]
+          ]
+        },
+        {
+          "name": "fit_screw",
+          "triangles": 4982,
+          "bounds_mm": [
+            [
+              60.0,
+              10.0,
+              0.0
+            ],
+            [
+              95.9944038,
+              46.0,
+              31.0
+            ]
+          ]
+        }
+      ],
+      "units": "millimeter",
+      "zip_xml_valid": true,
+      "print_bed_contact_verified": true,
+      "print_XY_overlap_verified": true,
+      "support_free_verified": false
+    }
+  ],
+  "physical_print_verified": false
+}

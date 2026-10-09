@@ -1,0 +1,93 @@
+{
+  "packages": [
+    {
+      "file": "Optional_Tests/Thread_Fit_Test.3mf",
+      "objects": [
+        {
+          "name": "fit_nut",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            10.0,
+            10.0,
+            0.0
+          ],
+          "stl": "Optional_Tests/fit_nut.stl",
+          "vertices": 1393,
+          "triangles": 2786,
+          "bounds_min_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds_max_mm": [
+            34.0,
+            33.98943328857422,
+            18.0
+          ],
+          "size_mm": [
+            34.0,
+            33.98943328857422,
+            18.0
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 10280.385068539905
+        },
+        {
+          "name": "fit_screw",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            60.0,
+            10.0,
+            0.0
+          ],
+          "stl": "Optional_Tests/fit_screw.stl",
+          "vertices": 2493,
+          "triangles": 4982,
+          "bounds_min_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds_max_mm": [
+            35.99440383911133,
+            36.0,
+            31.0
+          ],
+          "size_mm": [
+            35.99440383911133,
+            36.0,
+            31.0
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 15842.188298709973
+        }
+      ],
+      "units": "millimeter",
+      "printer_settings": false,
+      "support_settings": false,
+      "support_free_verified": false
+    }
+  ]
+}

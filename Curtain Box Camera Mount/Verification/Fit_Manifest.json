@@ -1,0 +1,44 @@
+{
+  "title": "Curtain box camera mount - thread fit test",
+  "description": "PETG thread fit coupons. Generic core3MF geometry only; select your printer and filament settings.",
+  "objects": [
+    {
+      "name": "fit_nut",
+      "stl": "../Optional_Tests/fit_nut.stl",
+      "material": "PETG",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        10,
+        10,
+        0
+      ]
+    },
+    {
+      "name": "fit_screw",
+      "stl": "../Optional_Tests/fit_screw.stl",
+      "material": "PETG",
+      "transform": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        60,
+        10,
+        0
+      ]
+    }
+  ]
+}

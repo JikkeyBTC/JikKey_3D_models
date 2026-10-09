@@ -1,0 +1,169 @@
+{
+  "parameters": {
+    "body_length": 110.0,
+    "body_width": 82.0,
+    "body_height": 47.0,
+    "nominal_gap": 150.0,
+    "min_gap": 145.0,
+    "max_gap": 215.0,
+    "screw_pitch": 6.0,
+    "screw_length": 95.0,
+    "male_root_radius": 10.0,
+    "male_crest_radius": 12.0,
+    "female_radial_clearance": 0.35,
+    "pad_thickness": 3.0,
+    "guide_length": 115.0,
+    "guide_width": 8.0,
+    "guide_height": 10.0,
+    "guide_clearance": 0.35,
+    "camera_plate_diameter": 82.0,
+    "camera_plate_thickness": 4.0,
+    "camera_hole_diameter": 4.3,
+    "camera_bolt_circle": 45.03333,
+    "camera_hole_count": 9,
+    "camera_hole_start_angle": 10.0
+  },
+  "parts": {
+    "01_body": {
+      "triangles": 8428,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          47.00000000000002,
+          82.0,
+          110.0
+        ]
+      ],
+      "volume_mm3": 286411.3040835494,
+      "valid": true,
+      "solids": 1
+    },
+    "02_screw": {
+      "triangles": 20464,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          35.994405276014696,
+          36.0,
+          120.0
+        ]
+      ],
+      "volume_mm3": 45875.73527658335,
+      "valid": true,
+      "solids": 1
+    },
+    "03_moving_foot": {
+      "triangles": 1954,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          47.0,
+          82.0,
+          129.7
+        ]
+      ],
+      "volume_mm3": 69266.18342329377,
+      "valid": true,
+      "solids": 1
+    },
+    "04_retaining_clip": {
+      "triangles": 748,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          18.0,
+          16.7914312720673,
+          2.2
+        ]
+      ],
+      "volume_mm3": 301.94128355415125,
+      "valid": true,
+      "solids": 1
+    },
+    "05_camera_plate": {
+      "triangles": 8860,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          82.0,
+          81.97451292406694,
+          12.0
+        ]
+      ],
+      "volume_mm3": 24446.97867632951,
+      "valid": true,
+      "solids": 1
+    },
+    "06_TPU_pad": {
+      "triangles": 124,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          82.0,
+          47.0,
+          3.0
+        ]
+      ],
+      "volume_mm3": 9904.800000000007,
+      "valid": true,
+      "solids": 1
+    }
+  },
+  "assembly_clearances": [
+    {
+      "gap": 145,
+      "body_screw_intersection_mm3": 0.0,
+      "body_foot_intersection_mm3": 0.0,
+      "screw_foot_intersection_mm3": 0.0,
+      "guide_overlap_mm": 100.7,
+      "screw_thread_engagement_mm": 34
+    },
+    {
+      "gap": 150,
+      "body_screw_intersection_mm3": 0.0,
+      "body_foot_intersection_mm3": 0.0,
+      "screw_foot_intersection_mm3": 0.0,
+      "guide_overlap_mm": 95.7,
+      "screw_thread_engagement_mm": 34
+    },
+    {
+      "gap": 215,
+      "body_screw_intersection_mm3": 0.0,
+      "body_foot_intersection_mm3": 0.0,
+      "screw_foot_intersection_mm3": 0.0,
+      "guide_overlap_mm": 30.700000000000003,
+      "screw_thread_engagement_mm": 22.299999999999997
+    }
+  ],
+  "reference": "(02) camera bracket 3MF; 82mm disk, 9x4.3mm on PCD45.03333",
+  "physical_fit_verified": false,
+  "physical_print_verified": false,
+  "wrong_thread_phase_intersection_mm3": 981.6417874012221,
+  "camera_plate_body_intersection_mm3": 0.0,
+  "clip_screw_intersection_mm3": 0.0,
+  "clip_foot_intersection_mm3": 0.0
+}

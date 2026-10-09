@@ -1,0 +1,293 @@
+{
+  "packages": [
+    {
+      "file": "Reference/CurtainBox_Mount_Assembly_REFERENCE.3mf",
+      "objects": [
+        {
+          "name": "body",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stl": "Verification/_build/assembled/01_body.stl",
+          "vertices": 4208,
+          "triangles": 8428,
+          "bounds_min_mm": [
+            0.0,
+            -41.0,
+            -1.0658141036401503e-14
+          ],
+          "bounds_max_mm": [
+            110.0,
+            41.0,
+            47.0
+          ],
+          "size_mm": [
+            110.0,
+            82.0,
+            47.000000000000014
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 286430.49365349417
+        },
+        {
+          "name": "screw",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stl": "Verification/_build/assembled/02_screw.stl",
+          "vertices": 10234,
+          "triangles": 20464,
+          "bounds_min_mm": [
+            22.0,
+            -18.0,
+            10.005594253540039
+          ],
+          "bounds_max_mm": [
+            142.0,
+            18.0,
+            45.99440383911133
+          ],
+          "size_mm": [
+            120.0,
+            36.0,
+            35.98880958557129
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 45852.90085502061
+        },
+        {
+          "name": "moving_foot",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stl": "Verification/_build/assembled/03_moving_foot.stl",
+          "vertices": 979,
+          "triangles": 1954,
+          "bounds_min_mm": [
+            14.300000190734863,
+            -41.0,
+            0.0
+          ],
+          "bounds_max_mm": [
+            144.0,
+            41.0,
+            47.0
+          ],
+          "size_mm": [
+            129.69999980926514,
+            82.0,
+            47.0
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 69267.17457286664
+        },
+        {
+          "name": "retaining_clip",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stl": "Verification/_build/assembled/04_retaining_clip.stl",
+          "vertices": 376,
+          "triangles": 748,
+          "bounds_min_mm": [
+            135.39999389648438,
+            -9.0,
+            20.20577049255371
+          ],
+          "bounds_max_mm": [
+            137.60000610351562,
+            9.0,
+            36.9972038269043
+          ],
+          "size_mm": [
+            2.20001220703125,
+            18.0,
+            16.791433334350586
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 301.793513424974
+        },
+        {
+          "name": "camera_plate",
+          "material": "PETG",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stl": "Verification/_build/assembled/05_camera_plate.stl",
+          "vertices": 4410,
+          "triangles": 8860,
+          "bounds_min_mm": [
+            14.0,
+            -40.98725509643555,
+            -12.0
+          ],
+          "bounds_max_mm": [
+            96.0,
+            40.98725509643555,
+            0.0
+          ],
+          "size_mm": [
+            82.0,
+            81.9745101928711,
+            12.0
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 24436.983280554043
+        },
+        {
+          "name": "pad_fixed",
+          "material": "TPU",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stl": "Verification/_build/assembled/06_TPU_pad_fixed.stl",
+          "vertices": 64,
+          "triangles": 124,
+          "bounds_min_mm": [
+            -3.0,
+            -41.0,
+            -2.1316282072803006e-14
+          ],
+          "bounds_max_mm": [
+            5.2607251237526964e-14,
+            41.0,
+            47.0
+          ],
+          "size_mm": [
+            3.0000000000000524,
+            82.0,
+            47.00000000000002
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 9904.800263404952
+        },
+        {
+          "name": "pad_moving",
+          "material": "TPU",
+          "transform": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stl": "Verification/_build/assembled/07_TPU_pad_moving.stl",
+          "vertices": 64,
+          "triangles": 124,
+          "bounds_min_mm": [
+            144.0,
+            -41.0,
+            -1.9273472385119075e-14
+          ],
+          "bounds_max_mm": [
+            147.0,
+            41.0,
+            47.0
+          ],
+          "size_mm": [
+            3.0,
+            82.0,
+            47.00000000000002
+          ],
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "inconsistent_shared_edges": 0,
+          "signed_volume_mm3": 9904.783142089844
+        }
+      ],
+      "units": "millimeter",
+      "printer_settings": false,
+      "support_settings": false,
+      "support_free_verified": false
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "STL_count": 8,
+  "individual_STEP_count": 8,
+  "3MF_count": 4,
+  "local_links": [
+    {
+      "document": "README.md",
+      "link": "images/preview_assembly.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "CurtainBox_CameraMount_145-215mm_STL_STEP_3MF.zip",
+      "bundle_built_separately": true
+    },
+    {
+      "document": "README.md",
+      "link": "STL/01_body.stl",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STEP/01_body.step",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STL/02_screw.stl",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STEP/02_screw.step",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STL/03_moving_foot.stl",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STEP/03_moving_foot.step",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STL/04_retaining_clip.stl",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STEP/04_retaining_clip.step",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STL/05_camera_plate.stl",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STEP/05_camera_plate.step",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STL/06_TPU_pad.stl",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "STEP/06_TPU_pad.step",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "3MF/CurtainBox_Mount_Print_PETG.3mf",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "3MF/CurtainBox_Mount_Print_TPU.3mf",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Optional_Tests/Thread_Fit_Test.3mf",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "images/preview_print_layout.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Optional_Tests/fit_nut.stl",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Optional_Tests/fit_screw.stl",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Optional_Tests/fit_nut.step",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Optional_Tests/fit_screw.step",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "images/preview_exploded.png",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Assembly_Guide_KO.md",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Reference/CurtainBox_Mount_Assembly_REFERENCE.step",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Reference/CurtainBox_Mount_Assembly_REFERENCE.3mf",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Native_CAD/CurtainBox_CameraMount.FCStd",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Verification/Dimensions.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Verification/CAD_Validation.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Verification/STEP_Validation.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Verification/STL_3MF_Validation.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "Verification/Thread_Mesh_Validation.json",
+      "exists": true
+    },
+    {
+      "document": "README.md",
+      "link": "tools/README.md",
+      "exists": true
+    }
+  ],
+  "physical_print_verified": false,
+  "support_free_verified": false
+}

@@ -1,0 +1,5 @@
+Verification/_build/
+__pycache__/
+*.pyc
+*.FCBak
+*.FCStd1
