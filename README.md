@@ -14,6 +14,8 @@ Printable models, STEP geometry and rendering assets for JikKey, ShieldSigner, D
 - [Waveshare 1.3inch LCD HAT](./Waveshare%201.3inch%20LCD%20HAT/): original 240×240 display, joystick and three keys; photo-informed circuit detail, formed switches, open female sockets, STEP, textured GLB and packed Blender studio.
 - [OV5647 ZeroCam](./OV5647%20ZeroCam/): detailed camera head and integral flex in a flat pose; STEP and PBR GLB for KeyShot.
 
+- [Raspberry Pi Zero v1.3 + OV5647](./Raspberry%20Pi%20Zero%20v1.3%20%2B%20OV5647/): camera mounted closely against the Pi underside, downward lens and routed CSI flex; STEP, textured GLB and packed Blender studio.
+
 - [SeedSigner — Geometrick Design References](./SeedSigner/Reference/): 17 photo screenshots, 2 video stills, contact sheet and linked source inventory.
 
 ![ShieldSigner Secret Case — Pill Logo](ShieldSigner%20Secret%20Case/Pill%20Logo/images/closed-preview.png)
