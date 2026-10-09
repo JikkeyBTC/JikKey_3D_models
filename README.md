@@ -16,6 +16,9 @@ Printable models, STEP geometry and rendering assets for JikKey, ShieldSigner, D
 
 - [Raspberry Pi Zero v1.3 + OV5647](./Raspberry%20Pi%20Zero%20v1.3%20%2B%20OV5647/): camera mounted closely against the Pi underside, downward lens and routed CSI flex; STEP, textured GLB and packed Blender studio.
 
+- [Raspberry Pi Zero v1.3 + OV5647 — GPIO 7mm](./Raspberry%20Pi%20Zero%20v1.3%20%2B%20OV5647%20GPIO%207mm/): exposed 7 mm pins above PCB top, close-mounted camera and taut curved flex; full STEP ZIP, textured GLB and packed Blender studio.
+- [Raspberry Pi Zero v1.3 + OV5647 — GPIO 11mm](./Raspberry%20Pi%20Zero%20v1.3%20%2B%20OV5647%20GPIO%2011mm/): exposed 11 mm pins above PCB top, close-mounted camera and taut curved flex; full STEP ZIP, textured GLB and packed Blender studio.
+
 - [SeedSigner — Geometrick Design References](./SeedSigner/Reference/): 17 photo screenshots, 2 video stills, contact sheet and linked source inventory.
 
 ![ShieldSigner Secret Case — Pill Logo](ShieldSigner%20Secret%20Case/Pill%20Logo/images/closed-preview.png)
