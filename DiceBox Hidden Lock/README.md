@@ -1,56 +1,53 @@
-# DiceBox Hidden Lock
+# Entropy Box — Deep Pockets V3
 
-**최신 모델: [Strong Lock V2](V2/).** V1은 상·하판을 잡고 적은 힘으로 당겨도 분리된다는 실물 피드백을 받았습니다. V2는 숨겨진 걸쇠를 4개에서 8개로 늘리고 물림 깊이와 팔 두께를 보강했습니다. 아래 자료는 비교용 V1입니다.
+5 mm 주사위가 얕은 칸에 걸쳐 비스듬히 놓이는 실물 피드백에 따라, **25개 칸의 깊이를 1.6 → 5.0 mm**로 높인 Entropy Box입니다. 주사위가 바닥에 정상 안착하면 윗면과 칸막이 상단이 같은 높이입니다.
 
-한 변 **5 mm인 주사위 25개**를 흔들어 5×5 자리로 모으는 정사각형 DiceBox입니다. 완성 크기는 **58×58×15.6 mm**, 투명판 규격은 **50×50×2 mm**입니다. 본체와 뚜껑을 별도로 출력하고 투명판을 넣은 뒤 덮으므로 프린팅 도중 일시정지가 필요하지 않습니다.
+완성 크기는 **58×58×19.0 mm**이며, 한 변 **5 mm인 주사위 25개**, **50×50×2 mm 투명판**, 칸 위의 자유 회전 공간 **9.0 mm**를 사용합니다. 기존 **Strong Lock V2 뚜껑을 재사용**할 수 있으므로 본체만 다시 출력하면 됩니다. 이 폴더의 이전 출력 부품과 V2 하위 폴더를 현재 V3 자료로 교체했습니다.
 
-![완성 형상 CAD 미리보기](Previews/Preview_HiddenLock_Profile.png)
+![수정된 칸과 25개 주사위](Previews/Preview_V3_Open_25_Dice.png)
 
-## 내부 잠금 구조
+## 수정 치수
 
-뚜껑 안쪽의 탄성 걸쇠 4개가 본체의 수평 잠금 턱에 맞물립니다. 걸쇠 뒤에는 연속된 바깥벽이 있어 겉에서 걸쇠와 절개가 보이지 않습니다. 바깥쪽 해제 버튼이 없으므로 조립 후에는 분리가 어렵습니다.
+| 항목 | 이전 V2 | 현재 V3 |
+| --- | --- | --- |
+| 유효 칸 깊이 | 1.6 mm | 5.0 mm |
+| 아래쪽 수직 지지 구간 | 0.6 mm | 4.0 mm |
+| 칸 입구 경사 높이 | 1.0 mm | 1.0 mm |
+| 아래쪽 칸 폭 / 입구 폭 | 6.0 / 8.0 mm | 6.0 / 8.0 mm |
+| 칸 간격 | 8.8 mm | 8.8 mm |
+| 바닥 두께 | 1.4 mm | 1.4 mm |
+| 칸 위의 자유 회전 공간 | 9.0 mm | 9.0 mm |
+| 완성 높이 | 15.6 mm | 19.0 mm |
 
-이전 Slim 모델보다 뚜껑과 본체의 한쪽 설계 간극을 **0.25 → 0.10 mm**, 잠금 턱의 위아래 여유를 **0.35 → 0.05 mm**로 줄였습니다. 안쪽 압착 돌기 8개에는 **0.02 mm의 명목 압입량**을 적용해 좌우 흔들림을 줄이도록 설계했습니다. 이는 CAD 기준값이며 실제 인쇄물의 유격을 측정한 값은 아닙니다.
+투명판과 상부 결합부 전체를 3.4 mm 높였습니다. 기존 잠금부의 물림, 팔 길이와 공차는 그대로 유지되며, 제공하는 뚜껑 STL·STEP은 V2 파일과 바이트까지 동일합니다. 숨겨진 걸쇠 8개와 압착 돌기 구조도 유지됩니다. V1 또는 다른 뚜껑과의 호환은 검증하지 않았습니다.
 
-![뚜껑 안쪽의 숨겨진 걸쇠](Previews/Preview_Lid_Inside.png)
+![실제 모델의 단면: 5 mm 주사위 높이에 맞춘 수납 칸](Previews/Preview_V3_Section_5mm_Pockets.png)
 
 ## 다운로드
 
-**[전체 STL·STEP ZIP](DiceBox_50x50x2_HiddenLock_PLA_STL_STEP.zip)**에는 아래 부품, 체결 시험 부품, 미리보기, 조립 안내, FreeCAD 원본과 검증 보고서가 들어 있습니다.
+**[전체 STL·STEP ZIP](Entropy_Box_V3_Deep_Pockets_STL_STEP.zip)** — 본체, 호환 뚜껑, 출력 배치, 9칸 시험판, FreeCAD 원본, 조립·비교 자료와 검증 결과를 포함합니다.
 
 | 부품 | STL | STEP |
 | --- | --- | --- |
-| 본체 | [Base.stl](DiceBox_HiddenLock_Base.stl) | [Base.step](DiceBox_HiddenLock_Base.step) |
-| 뚜껑 | [Lid.stl](DiceBox_HiddenLock_Lid.stl) | [Lid.step](DiceBox_HiddenLock_Lid.step) |
-| 본체·뚜껑 출력 배치 | [Print_Layout.stl](DiceBox_HiddenLock_Print_Layout.stl) | [Print_Layout.step](DiceBox_HiddenLock_Print_Layout.step) |
+| 깊은 칸 본체 | [본체 STL](Entropy_Box_V3_Deep_Base.stl) | [본체 STEP](Entropy_Box_V3_Deep_Base.step) |
+| V2 호환 뚜껑 | [뚜껑 STL](Entropy_Box_V3_Compatible_Lid.stl) | [뚜껑 STEP](Entropy_Box_V3_Compatible_Lid.step) |
+| 본체·뚜껑 출력 배치 | [배치 STL](Entropy_Box_V3_Print_Layout.stl) | [배치 STEP](Entropy_Box_V3_Print_Layout.step) |
+| 28×28×6.4 mm, 9칸 시험판 | [시험판 STL](Optional_Test/OPTIONAL_V3_9_Pocket_Test_Tray.stl) | [시험판 STEP](Optional_Test/OPTIONAL_V3_9_Pocket_Test_Tray.step) |
 
-**본체와 뚜껑을 모두 새 파일로 출력해야 합니다.** 이전 Slim 부품과는 호환되지 않습니다. 개별 본체·뚜껑 파일 또는 출력 배치 파일 중 하나를 선택하십시오. STL과 STEP은 같은 위치와 방향으로 검증했으며, 뚜껑은 윗면이 출력 바닥에 닿도록 뒤집어 두었습니다.
+개별 부품과 출력 배치 중 하나를 사용하십시오. 함께 불러오면 중복됩니다. 본체는 바닥이 출력판에 닿으며, 뚜껑은 윗면이 출력판에 닿는 방향입니다. `Reference`와 `Reference_V2`는 조립·단면·기존 형상 비교용이며 출력 대상이 아닙니다.
 
-## 출력과 조립
+## 출력과 검증
 
-PLA 예시 조건은 0.4 mm 노즐, 0.2 mm 고정 레이어, Arachne 벽 생성, 벽 4줄, Gyroid 채움 20%, 위·아래 각각 7층입니다. Bambu Lab A1 예시에서 서포트와 브림 없이 슬라이싱했습니다. 실제 프린터에 맞는 프로필과 온도를 사용하십시오.
+PLA 시작 조건: 0.4 mm 노즐, 0.1 mm 고정 레이어, 벽 4줄, Gyroid 20%, 위·아래 두께 1.4 mm. 이번 수정 모델의 새 슬라이싱과 실제 출력은 수행하지 않았습니다. 먼저 9칸 시험판으로 실물 주사위의 안착과 깊이를 확인할 수 있습니다. 자세한 조립 방법은 [한국어 안내](Assembly_Guide_KO.txt)를 참고하십시오.
 
-걸쇠 틈의 출력 잔여물을 제거하고 주사위 25개와 투명판을 넣습니다. 뚜껑을 수평으로 맞춘 뒤 네 면이 고르게 내려가도록 눌러 네 걸쇠를 체결합니다. 조립 후 분리가 어려우므로 내용물과 투명판의 안착을 먼저 확인하십시오.
+- [FreeCAD 원본](Native_CAD/Entropy_Box_V3_Deep_Pockets.FCStd), [조립 STEP](Reference/Entropy_Box_V3_Assembly_REFERENCE.step)
+- [치수](Verification/Dimensions.json), [CAD 검사](Verification/Validation.json), [독립 STL 검사](Verification/Independent_STL_Validation.json)
+- [칸 깊이 비교](Verification/Pocket_Depth_Comparison.json), [파일 SHA-256 목록](SHA256_Manifest.json)
 
-상세 치수와 작업 순서는 [한국어 조립 안내](Assembly_Guide_KO.txt)에 있습니다.
+유효 CAD 솔리드, 닫힌 STL과 면 방향·연결성, STEP 재가져오기와 위치, 25개 주사위의 바닥·윗면 높이, 안착 간섭과 회전 공간을 확인했습니다. 결합부는 기존 V2의 위치만 이동한 동일 형상이며, 기존 압착 돌기의 의도된 작은 간섭이 유지됩니다.
 
-## 체결 시험 부품
+**실제 흔들기만으로 25개가 매번 한 칸씩 들어가는 성능과 출력 공차는 재출력 시험이 필요합니다.** 미리보기는 실제 CAD에서 렌더링했고, 주사위 눈금은 표시용입니다.
 
-| 시험 | STL | STEP |
-| --- | --- | --- |
-| 작은 본체 접합부 | [Joint_Base_Test.stl](Optional_Tests/OPTIONAL_HiddenLock_Joint_Base_Test.stl) | [Joint_Base_Test.step](Optional_Tests/OPTIONAL_HiddenLock_Joint_Base_Test.step) |
-| 작은 뚜껑 접합부 | [Joint_Lid_Test.stl](Optional_Tests/OPTIONAL_HiddenLock_Joint_Lid_Test.stl) | [Joint_Lid_Test.step](Optional_Tests/OPTIONAL_HiddenLock_Joint_Lid_Test.step) |
-| 본체 테두리 | [Base_Rim_Test.stl](Optional_Tests/OPTIONAL_HiddenLock_Base_Rim_Test.stl) | [Base_Rim_Test.step](Optional_Tests/OPTIONAL_HiddenLock_Base_Rim_Test.step) |
+**기존 내부 두께 17 mm 종이 패키지는 현재 19 mm 제품과 맞지 않습니다.** 새 모델용으로 패키지 두께와 접기 보정을 수정한 뒤 주문해야 합니다.
 
-작은 접합부 두 개는 한쪽 걸쇠의 체결을 적은 재료로 확인하는 용도입니다. 전체 프레임의 맞춤과 압착 돌기 접촉은 본체 테두리 시험 부품과 최종 뚜껑으로 확인할 수 있습니다.
-
-## 원본과 검증
-
-- [FreeCAD 원본](Native_CAD/DiceBox_HiddenLock_50x50x2.FCStd)
-- [조립 상태 STEP](Reference/DiceBox_HiddenLock_Assembly_REFERENCE.step)
-- [설계 치수](Verification/Dimensions.json), [CAD 검증](Verification/Validation.json), [독립 STL 검증](Verification/Independent_STL_Validation.json)
-- [이전 Slim 모델과의 체결 치수 비교](Verification/Fit_Comparison.json), [PLA 예시 슬라이싱 검증](Verification/Slicing_Validation.json)
-
-`Reference`의 투명판·주사위·닫힌 뚜껑은 조립 확인용입니다. 실제 투명판을 별도로 준비하십시오. 조립 STEP은 탄성 변형 전의 형상이므로 압착 돌기 끝에 의도된 작은 간섭이 있습니다. `Baseline_Slim`은 이전 모델과의 비교 검증용 STEP이고, `tools`는 FreeCAD Python 환경에서 형상을 재생성하고 STL을 검증하는 코드입니다.
-
-CAD 솔리드와 닫힌 STL, STEP 재가져오기 및 출력 방향, 투명판 삽입, 주사위 자리와 회전 공간을 검증했습니다. 예시 슬라이싱은 경고 없이 서포트 없는 출력 경로를 생성했습니다. **실물 출력의 체결력, 균열 여부, 완전한 무유격은 아직 확인하지 않았으며 출력 공차에 따라 달라집니다.**
+`tools/verify_stl.py`는 이 폴더와 ZIP에서 바로 실행할 수 있습니다(Python·NumPy 필요). `tools/build_deep_pockets.py`는 FreeCAD Python으로 형상을 재생성하며, 결과를 작업 폴더 루트에 씁니다. 재생성 후 단면·렌더링 도구와 `tools/package_files.py`로 배포 ZIP을 다시 만들 수 있습니다. `Reference_V2`에는 원본 뚜껑과 비교용 입력이 들어 있습니다.

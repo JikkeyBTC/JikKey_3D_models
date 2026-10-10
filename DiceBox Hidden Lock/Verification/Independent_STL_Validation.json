@@ -1,82 +1,42 @@
 {
-  "DiceBox_HiddenLock_Base": {
-    "triangles": 4204,
-    "vertices": 2104,
-    "edges": 6306,
-    "euler_characteristic": 2,
-    "closed_manifold": true,
-    "consistent_winding": true,
-    "connected_components": 1,
-    "bbox_mm": [
-      58.0,
-      58.0,
-      14.2
-    ],
-    "signed_volume_mm3": 18158.84378957658,
-    "step_mesh_volume_difference_mm3": -0.11821467986010248
+  "stl": {
+    "Entropy_Box_V3_Deep_Base": {
+      "triangles": 4268,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "bbox_mm": [
+        58.0,
+        58.0,
+        17.6
+      ],
+      "step_mesh_volume_difference_mm3": -0.17573212193747167
+    },
+    "Entropy_Box_V3_Compatible_Lid": {
+      "triangles": 7392,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "bbox_mm": [
+        58.0,
+        58.0,
+        9.8
+      ],
+      "step_mesh_volume_difference_mm3": -0.1367408190117203
+    },
+    "OPTIONAL_V3_9_Pocket_Test_Tray": {
+      "triangles": 876,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "bbox_mm": [
+        28.0,
+        28.0,
+        6.4
+      ],
+      "step_mesh_volume_difference_mm3": 2.388309758316609e-05
+    }
   },
-  "DiceBox_HiddenLock_Lid": {
-    "triangles": 6016,
-    "vertices": 3008,
-    "edges": 9024,
-    "euler_characteristic": 0,
-    "closed_manifold": true,
-    "consistent_winding": true,
-    "connected_components": 1,
-    "bbox_mm": [
-      58.0,
-      58.0,
-      9.8
-    ],
-    "signed_volume_mm3": 6181.863768514925,
-    "step_mesh_volume_difference_mm3": -0.13771410280605778
-  },
-  "OPTIONAL_HiddenLock_Base_Rim_Test": {
-    "triangles": 1808,
-    "vertices": 904,
-    "edges": 2712,
-    "euler_characteristic": 0,
-    "closed_manifold": true,
-    "consistent_winding": true,
-    "connected_components": 1,
-    "bbox_mm": [
-      58.0,
-      58.0,
-      10.4
-    ],
-    "signed_volume_mm3": 8750.032602978245,
-    "step_mesh_volume_difference_mm3": -0.05430123993937741
-  },
-  "OPTIONAL_HiddenLock_Joint_Base_Test": {
-    "triangles": 48,
-    "vertices": 26,
-    "edges": 72,
-    "euler_characteristic": 2,
-    "closed_manifold": true,
-    "consistent_winding": true,
-    "connected_components": 1,
-    "bbox_mm": [
-      14.0,
-      6.0,
-      10.4
-    ],
-    "signed_volume_mm3": 504.49748851299273,
-    "step_mesh_volume_difference_mm3": -1.1487007782307046e-05
-  },
-  "OPTIONAL_HiddenLock_Joint_Lid_Test": {
-    "triangles": 216,
-    "vertices": 110,
-    "edges": 324,
-    "euler_characteristic": 2,
-    "closed_manifold": true,
-    "consistent_winding": true,
-    "connected_components": 1,
-    "bbox_mm": [
-      14.0,
-      6.0,
-      9.8
-    ],
-    "signed_volume_mm3": 354.93215801663206,
-    "step_mesh_volume_difference_mm3": 0.000139490357298655
-  }
+  "lid_identical_to_v2": true,
+  "z_zero_for_printing": true
 }

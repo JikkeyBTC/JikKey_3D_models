@@ -2,12 +2,12 @@
 
 Printable models, STEP geometry and rendering assets for JikKey, ShieldSigner, DiceBox, and camera mounts.
 
-- [Entropy Box — Paper Package](./Entropy%20Box/Paper%20Package/): custom carton with AI/PNG/PDF artwork and dielines, production print files and a folded preview for the 58×58×15.6 mm Entropy Box.
+- [Entropy Box — Paper Package](./Entropy%20Box/Paper%20Package/): carton artwork and dielines for the earlier 58×58×15.6 mm model; its 17 mm internal thickness must be revised before packaging the current 19 mm V3.
 
 - [Curtain Box Camera Mount](./Curtain%20Box%20Camera%20Mount/): adjustable 145–215 mm pressure mount with separate PETG parts, two TPU pads, thread-fit coupons, print-oriented STL/STEP and 3MF layouts; camera plate dimensions follow the supplied reference, with C250 fit and physical printing untested.
 
 - [ShieldSigner Secret Case](./ShieldSigner%20Secret%20Case/): screwless case with removable upper and lower trays, including hidden SIM and microSD storage.
-- [DiceBox Hidden Lock — Strong Lock V2](./DiceBox%20Hidden%20Lock/V2/): a 58 × 58 × 15.6 mm PLA dice shaker for twenty-five 5 mm dice and a 50 × 50 × 2 mm clear panel, with eight reinforced concealed lid latches.
+- [Entropy Box — Deep Pockets V3](./DiceBox%20Hidden%20Lock/): 58×58×19.0 mm PLA dice shaker with 25 wells deepened to 5.0 mm, a 50×50×2 mm clear panel, 9 mm tumble space, unchanged V2-compatible lid and a 9-well test tray (STL + STEP).
 - [ShieldSigner Secret Case — Pill Logo](./ShieldSigner%20Secret%20Case/Pill%20Logo/): white/orange screwless case with a capsule mark, exterior borders and concealed storage for two SIM cards and two microSD cards.
 
 - [Raspberry Pi Zero v1.3](./Raspberry%20Pi%20Zero%20v1.3/): non-wireless board with fitted/bare GPIO variants; detailed formed connectors, curved solder, plated vias, STEP, textured GLB and packed Blender studio.

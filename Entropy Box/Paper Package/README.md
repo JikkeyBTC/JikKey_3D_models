@@ -1,5 +1,7 @@
 # Entropy Box paper package
 
+**Compatibility:** this carton is for the earlier 15.6 mm model. The current [Deep Pockets V3](../../DiceBox%20Hidden%20Lock/) is 19.0 mm thick and does not fit this carton's 17 mm target interior. Revise the carton depth and folding allowance before ordering for V3.
+
 Paper carton for the 58 × 58 × 15.6 mm Entropy Box, with artwork based on the [official product page](https://jikkey.com/ko/product/4). The target minimum usable interior is 59 × 59 × 17 mm.
 
 ![Folded package preview](Entropy_Box_Assembled_Preview.png)

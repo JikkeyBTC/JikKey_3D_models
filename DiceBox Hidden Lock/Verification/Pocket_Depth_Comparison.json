@@ -1,0 +1,10 @@
+{
+  "before_depth_mm": 1.6,
+  "after_depth_mm": 5.0,
+  "before_straight_wall_mm": 0.6000000000000001,
+  "after_straight_wall_mm": 4.0,
+  "before_closed_height_mm": 15.6,
+  "after_closed_height_mm": 19.0,
+  "lid_print_file_unchanged": true,
+  "observed_issue": "User photo shows dice tilted and bridging shallow wells. Deeper full-height lateral support addresses shallow capture; physical sorting is not verified."
+}
