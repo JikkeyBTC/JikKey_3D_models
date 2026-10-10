@@ -1,0 +1,29 @@
+{
+  "stl": {
+    "Entropy_Box_100_V3_Base": {
+      "triangles": 11596,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "bbox_mm": [
+        108.0,
+        108.0,
+        17.6
+      ],
+      "step_mesh_volume_difference_mm3": -0.17709286480385344
+    },
+    "Entropy_Box_100_V3_Lid": {
+      "triangles": 11712,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "bbox_mm": [
+        108.0,
+        108.0,
+        9.8
+      ],
+      "step_mesh_volume_difference_mm3": -0.13507139067041862
+    }
+  },
+  "z_zero_for_printing": true
+}

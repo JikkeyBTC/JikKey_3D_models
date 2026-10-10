@@ -1,0 +1,26 @@
+{
+  "capacity": 100,
+  "array": [
+    10,
+    10
+  ],
+  "seated_die_size_mm": 5,
+  "closed_size_mm": [
+    108,
+    108,
+    19
+  ],
+  "pocket_depth_mm": 5,
+  "all_wells_have_floor_and_full_height_support": true,
+  "pane_size_mm": [
+    100,
+    100,
+    2
+  ],
+  "pane_and_dice_collisions_mm3": 0,
+  "lid_withdrawal_shoulder_blocks": true,
+  "intentional_rib_contact_mm3": 0.9238836901456964,
+  "assembly_solid_count": 103,
+  "print_layout_solid_count": 2,
+  "limitations": "Static geometry only. Physical sorting, PLA fit/warping and withdrawal force are not measured."
+}

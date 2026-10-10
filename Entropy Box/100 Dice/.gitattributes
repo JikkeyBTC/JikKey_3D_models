@@ -1,0 +1,10 @@
+.gitattributes text eol=lf
+*.md text eol=lf
+*.py -text
+*.txt -text
+*.json -text
+*.stl binary
+*.step binary
+*.png binary
+*.FCStd binary
+*.zip binary

@@ -8,6 +8,7 @@ Printable models, STEP geometry and rendering assets for JikKey, ShieldSigner, D
 
 - [ShieldSigner Secret Case](./ShieldSigner%20Secret%20Case/): screwless case with removable upper and lower trays, including hidden SIM and microSD storage.
 - [Entropy Box — Deep Pockets V3](./DiceBox%20Hidden%20Lock/): 58×58×19.0 mm PLA dice shaker with 25 wells deepened to 5.0 mm, a 50×50×2 mm clear panel, 9 mm tumble space, unchanged V2-compatible lid and a 9-well test tray (STL + STEP).
+- [Entropy Box — 100 Dice](./Entropy%20Box/100%20Dice/): 108×108×19 mm model for 100 ordinary 5 mm dice in a 10×10 array and a **100×100×2 mm clear panel**, retaining V3 pocket geometry and using 16 concealed latches (STL + STEP).
 - [ShieldSigner Secret Case — Pill Logo](./ShieldSigner%20Secret%20Case/Pill%20Logo/): white/orange screwless case with a capsule mark, exterior borders and concealed storage for two SIM cards and two microSD cards.
 
 - [Raspberry Pi Zero v1.3](./Raspberry%20Pi%20Zero%20v1.3/): non-wireless board with fitted/bare GPIO variants; detailed formed connectors, curved solder, plated vias, STEP, textured GLB and packed Blender studio.
