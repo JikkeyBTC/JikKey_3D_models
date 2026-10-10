@@ -1,0 +1,76 @@
+{
+  "layer_order": [
+    "Raspberry Pi",
+    "Bottom support",
+    "SmartCard HAT",
+    "Top support",
+    "LCD HAT"
+  ],
+  "support_positions": {
+    "bottom": {
+      "source": "SeedSigner-New-Designer-Separator-Bottom-v1.step",
+      "source_sha256": "57a215e92e5a991b0a29326b4f0ece5aa1fc3b345cc17b9cbeb95ce2964af07d",
+      "native_bounds_mm": [
+        [
+          5.086724229561679,
+          2.9145887222086295,
+          3.300000309944149
+        ],
+        [
+          70.0867242295617,
+          32.7145887222087,
+          7.700000405311607
+        ]
+      ],
+      "rigid_translation_mm": [
+        -36.18829345703125,
+        -17.464988708496094,
+        -8.21032428741455
+      ],
+      "foot_tip_z_mm": -4.9103240966796875,
+      "upper_shelf_z_mm": -0.5103240013122292
+    },
+    "top": {
+      "source": "SeedSigner-New-Designer-Separator-Top-v1.step",
+      "source_sha256": "59ff0c7c4cb8e284beba3bcee72af2994a864882c20f82e07bba9f6fe82a1631",
+      "native_bounds_mm": [
+        [
+          5.086724229561679,
+          2.9145887222086295,
+          11.3000003099442
+        ],
+        [
+          70.08672422956175,
+          32.7145887222087,
+          15.700000405311608
+        ]
+      ],
+      "rigid_translation_mm": [
+        -36.18829345703125,
+        -17.464988708496094,
+        -10.89532470703125
+      ],
+      "foot_tip_z_mm": 0.40467607975006104,
+      "upper_shelf_z_mm": 4.804676175117468
+    }
+  },
+  "board_height_changes_mm": {
+    "Pi_rigid_dz_from_previous_mm": 1.9427003860473633,
+    "SmartCard_rigid_dz_from_previous_deep_pose_mm": 2.762689948081997,
+    "LCD_HAT_rigid_dz_from_previous_mm": -0.08553493022921188
+  },
+  "camera_carrier_floor_clearance_mm": 0.28299903869628906,
+  "camera_axis_error_mm": 8.842681359923608e-07,
+  "GPIO_pin_height_above_PCB_top_mm": 7,
+  "LCD_PCB_intersecting_pin_count": 0,
+  "common_support_XY_recenter_mm": [
+    0.211708238698635,
+    0.385012012473303
+  ],
+  "common_non_pin_interferences": [
+    "Both variants: large SmartCard reader body intersects LCD GPIO housing; sampled depth0.551823mm.",
+    "Both variants: native joystick metal can intersects existing cover; sampled depth0.120–0.180mm.",
+    "Both variants: Top screw pairs now clear. Four Bottom pairs retain about0.002596mm sampled mesh interference/near-zero nominal clearance due23.5/23.0mm pitch mismatch; screw passage is not certified."
+  ],
+  "electrical_engagement_verified": false
+}

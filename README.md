@@ -22,3 +22,9 @@ Printable models, STEP geometry and rendering assets for JikKey, ShieldSigner, D
 - [SeedSigner — Geometrick Design References](./SeedSigner/Reference/): 17 photo screenshots, 2 video stills, contact sheet and linked source inventory.
 
 ![ShieldSigner Secret Case — Pill Logo](ShieldSigner%20Secret%20Case/Pill%20Logo/images/closed-preview.png)
+
+## Assembly render references
+
+- [SeedSigner Slim Assembly GPIO 7mm](./SeedSigner%20Slim%20Assembly%20GPIO%207mm/): complete BLEND/GLB render assembly, positioned support STEP, actual 7mm previews and verification; physical fit limitations documented.
+- [ShieldSigner Assembly GPIO 11mm](./ShieldSigner%20Assembly%20GPIO%2011mm/): complete BLEND/GLB render assembly, positioned support STEP, actual 11mm previews and verification; physical fit limitations documented.
+- [ShieldSigner Assembly GPIO 7mm](./ShieldSigner%20Assembly%20GPIO%207mm/): complete BLEND/GLB render assembly, positioned support STEP, actual 7mm previews and verification; physical fit limitations documented.

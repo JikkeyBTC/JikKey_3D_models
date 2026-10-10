@@ -1,0 +1,406 @@
+{
+  "date": "2026-10-10",
+  "assembly": "SeedSigner Slim Assembly GPIO 7mm",
+  "GPIO_above_total_PCB_top_mm": 7,
+  "native_and_GLB_reopen": {
+    "native_and_GLB_independent_reopen_pass": true,
+    "product": "slim",
+    "native": {
+      "mesh_objects": 2449,
+      "camera_objects": 292,
+      "bare_GPIO_count": 40,
+      "GPIO_height_min_max_above_total_PCB_top_mm": [
+        7.000000681728125,
+        7.000000681728125
+      ],
+      "GPIO_guard_absent": true,
+      "camera_axis_case_mm": [
+        -12.433807365596294,
+        0.33578951843082905
+      ],
+      "case_hole_axis_mm": [
+        -12.433807373,
+        0.33578968
+      ],
+      "camera_axis_error_mm": 1.617387147818332e-07,
+      "camera_carrier_bounds_mm": [
+        [
+          -16.683807596564293,
+          -3.914210945367813,
+          -6.484702695161104
+        ],
+        [
+          -8.183807134628296,
+          4.585789982229471,
+          -4.684702027589083
+        ]
+      ],
+      "main_films": {
+        "Camera__FPC_Rear_Coverlay": {
+          "vertices": 2196,
+          "faces": 4388,
+          "bounds_mm": [
+            [
+              -16.683807596564293,
+              -6.314213387668133,
+              -4.829702898859978
+            ],
+            [
+              32.356150448322296,
+              5.185787100344896,
+              -2.1897023543715477
+            ]
+          ]
+        },
+        "Camera__FPC_Polyimide_Core": {
+          "vertices": 2196,
+          "faces": 4388,
+          "bounds_mm": [
+            [
+              -16.683807596564293,
+              -6.314213387668133,
+              -4.944702610373497
+            ],
+            [
+              32.47113898396492,
+              5.185787100344896,
+              -2.074702177196741
+            ]
+          ]
+        },
+        "Camera__FPC_Front_Coverlay": {
+          "vertices": 2196,
+          "faces": 4388,
+          "bounds_mm": [
+            [
+              -16.683807596564293,
+              -6.314213387668133,
+              -4.964702297002077
+            ],
+            [
+              32.49114006757736,
+              5.185787100344896,
+              -2.054702490568161
+            ]
+          ]
+        }
+      },
+      "support_placement": {
+        "bottom": {
+          "world_bounds_mm": [
+            [
+              -34.53272208571434,
+              -15.813825652003288,
+              -2.9947019647806883
+            ],
+            [
+              30.467281118035316,
+              13.986182399094105,
+              1.4052977785468102
+            ]
+          ],
+          "maximum_expected_bounds_error_mm": 9.024521148148779e-06,
+          "final_support_placement_matches_frozen_transform_report": true
+        }
+      }
+    },
+    "glb": {
+      "mesh_objects": 2449,
+      "camera_objects": 292,
+      "bare_GPIO_count": 40,
+      "GPIO_height_min_max_above_total_PCB_top_mm": [
+        7.000000681728125,
+        7.000000681728125
+      ],
+      "GPIO_guard_absent": true,
+      "camera_axis_case_mm": [
+        -12.433807365596294,
+        0.33578951843082905
+      ],
+      "case_hole_axis_mm": [
+        -12.433807373,
+        0.33578968
+      ],
+      "camera_axis_error_mm": 1.617387147818332e-07,
+      "camera_carrier_bounds_mm": [
+        [
+          -16.683807596564293,
+          -3.914210945367813,
+          -6.484702695161104
+        ],
+        [
+          -8.183807134628296,
+          4.585789982229471,
+          -4.684702027589083
+        ]
+      ],
+      "main_films": {
+        "Camera__FPC_Front_Coverlay": {
+          "vertices": 8724,
+          "faces": 4388,
+          "bounds_mm": [
+            [
+              -16.683807596564293,
+              -6.314213387668133,
+              -4.964702297002077
+            ],
+            [
+              32.49114006757736,
+              5.185787100344896,
+              -2.054702490568161
+            ]
+          ]
+        },
+        "Camera__FPC_Polyimide_Core": {
+          "vertices": 8316,
+          "faces": 4388,
+          "bounds_mm": [
+            [
+              -16.683807596564293,
+              -6.314213387668133,
+              -4.944702610373497
+            ],
+            [
+              32.47113898396492,
+              5.185787100344896,
+              -2.074702177196741
+            ]
+          ]
+        },
+        "Camera__FPC_Rear_Coverlay": {
+          "vertices": 8887,
+          "faces": 4388,
+          "bounds_mm": [
+            [
+              -16.683807596564293,
+              -6.314213387668133,
+              -4.829702898859978
+            ],
+            [
+              32.356150448322296,
+              5.185787100344896,
+              -2.1897023543715477
+            ]
+          ]
+        }
+      },
+      "support_placement": {
+        "bottom": {
+          "world_bounds_mm": [
+            [
+              -34.53272208571434,
+              -15.813825652003288,
+              -2.9947019647806883
+            ],
+            [
+              30.467281118035316,
+              13.986182399094105,
+              1.4052977785468102
+            ]
+          ],
+          "maximum_expected_bounds_error_mm": 9.024521148148779e-06,
+          "final_support_placement_matches_frozen_transform_report": true
+        }
+      }
+    },
+    "whole_assembly_fit_approved": false,
+    "scope": "Exact aperture axis, bare pin height/count, film existence, exported object conservation and optional frozen support world placement; full noncontact/containment reports are separate",
+    "file_sha256": {
+      "SeedSigner_Slim_Bottom_Support_7mm.blend": "d20b4a29eeeae72d543eec23befc60390c303dbe5af89ddcb81bbb4ef6c193a9",
+      "SeedSigner_Slim_Bottom_Support_7mm.glb": "a37e4492c6336220ecd16daa08ab85be71ce2b5de9b3af5c9c581e40d22d75dc"
+    }
+  },
+  "positioned_support_CAD": {
+    "status": "PASS",
+    "units": "mm",
+    "scope": "Exact original Bottom support only. Not a full-assembly STEP.",
+    "source_path": "SeedSigner-New-Designer-Separator-Bottom-v1.step",
+    "source_sha256": "57a215e92e5a991b0a29326b4f0ece5aa1fc3b345cc17b9cbeb95ce2964af07d",
+    "source_geometry_changed": false,
+    "source_STEP_modified": false,
+    "rotation_degrees_about_Z": 180,
+    "translation_mm": [
+      35.55400085449219,
+      16.900772094726562,
+      -6.294702529907227
+    ],
+    "transform_report_sha256": "bf5c98a1df2442b7331172ae606d86c5888f015fd8faf635d211e0bee71d14c1",
+    "STEP": {
+      "path": "SeedSigner_Slim_Bottom_Support_Positioned.step",
+      "bytes": 2157807,
+      "sha256": "9cb958c4ea9b47ef4e31135328169dd710d3fa9a5f62d0e15fbd5ffe9473bafd",
+      "verification": {
+        "valid": true,
+        "closed": true,
+        "solid_count": 1,
+        "face_count": 796,
+        "edge_count": 1390,
+        "bounds_mm": [
+          [
+            -34.53272337507,
+            -15.81381662748,
+            -2.9947022199642532
+          ],
+          [
+            30.467276624931,
+            13.986183372518003,
+            1.405297875405397
+          ]
+        ],
+        "maximum_bounds_error_mm": 2.140509991477302e-12,
+        "volume_mm3": 1001.7658816097305,
+        "absolute_volume_error_mm3": 6.347136149997823e-10,
+        "surface_area_mm2": 1968.13603199375,
+        "absolute_area_error_mm2": 8.408278517890722e-10,
+        "surface_types": {
+          "Cylinder": 16,
+          "Plane": 780
+        },
+        "original_topology_counts_preserved": true,
+        "analytic_surface_and_bidirectional_paired_trim_verification": {
+          "face_count": 796,
+          "surface_type_counts": {
+            "Cylinder": 16,
+            "Plane": 780
+          },
+          "maximum_surface_definition_delta": 2.191846704135969e-11,
+          "maximum_face_bounds_error_mm": 1.0324185950594256e-11,
+          "source_to_step": {
+            "samples": 4862,
+            "maximum_target_shape_distance_mm": 1.2731209393859406e-11,
+            "maximum_paired_surface_projection_distance_mm": 1.172790175598333e-11
+          },
+          "step_to_source": {
+            "samples": 4862,
+            "maximum_target_shape_distance_mm": 1.2984856483146775e-11,
+            "maximum_paired_surface_projection_distance_mm": 1.1726618298348312e-11
+          },
+          "vertex_hausdorff_mm": 1.2228298542848605e-11,
+          "shape_bounds_error_mm": 2.140509991477302e-12,
+          "sampling_grid": [
+            3,
+            3
+          ],
+          "original_model_tolerance_mm": 1e-07,
+          "topology_counts_preserved": {
+            "Solids": 1,
+            "Faces": 796
+          },
+          "topology_wrapper_count_diagnostics": {
+            "native": {
+              "Solids": 1,
+              "Shells": 1,
+              "Faces": 796,
+              "Wires": 806,
+              "Edges": 1390,
+              "Vertexes": 596
+            },
+            "STEP": {
+              "Solids": 1,
+              "Shells": 1,
+              "Faces": 796,
+              "Wires": 806,
+              "Edges": 1390,
+              "Vertexes": 596
+            }
+          },
+          "topology_acceptance_scope": "Exact solid and face counts; exact bidirectional geometric vertex set within1e-6 mm. Shell/wire/edge/duplicate-vertex wrapper counts are diagnostics, consistent with the reference STEP verifier.",
+          "geometry_method": "Established canonical analytic/NURBS supports; indexed support matching; bidirectional on-trim UV witnesses to matched faces; exact topology counts; bidirectional vertex nearest-neighbour proof",
+          "face_bounds_are_matching_diagnostics_only": true,
+          "nearest_trim_scope": "paired_face (stricter than whole-body nearest distance)"
+        }
+      }
+    },
+    "FCStd": {
+      "path": "SeedSigner_Slim_Bottom_Support_Positioned.FCStd",
+      "bytes": 141384,
+      "sha256": "c2181ce2e45c51b0e9b325b32156747266ca24ed3a86127c4f0b0d08ed49cab5",
+      "verification": {
+        "valid": true,
+        "closed": true,
+        "solid_count": 1,
+        "face_count": 796,
+        "edge_count": 1390,
+        "bounds_mm": [
+          [
+            -34.53272337506951,
+            -15.81381662748214,
+            -2.994702219963078
+          ],
+          [
+            30.467276624930506,
+            13.986183372517932,
+            1.4052978754043801
+          ]
+        ],
+        "maximum_bounds_error_mm": 8.881784197001252e-15,
+        "volume_mm3": 1001.7658816103652,
+        "absolute_volume_error_mm3": 0.0,
+        "surface_area_mm2": 1968.1360319945916,
+        "absolute_area_error_mm2": 6.821210263296962e-13,
+        "surface_types": {
+          "Cylinder": 16,
+          "Plane": 780
+        },
+        "original_topology_counts_preserved": true,
+        "analytic_surface_and_bidirectional_paired_trim_verification": {
+          "face_count": 796,
+          "surface_type_counts": {
+            "Cylinder": 16,
+            "Plane": 780
+          },
+          "maximum_surface_definition_delta": 1.4210854715202004e-14,
+          "maximum_face_bounds_error_mm": 1.0658141036401503e-14,
+          "source_to_step": {
+            "samples": 4862,
+            "maximum_target_shape_distance_mm": 1.0565964002724862e-13,
+            "maximum_paired_surface_projection_distance_mm": 1.1382899616642114e-14
+          },
+          "step_to_source": {
+            "samples": 4862,
+            "maximum_target_shape_distance_mm": 1.0444407983520395e-13,
+            "maximum_paired_surface_projection_distance_mm": 1.1382899616642114e-14
+          },
+          "vertex_hausdorff_mm": 1.0658141036401503e-14,
+          "shape_bounds_error_mm": 8.881784197001252e-15,
+          "sampling_grid": [
+            3,
+            3
+          ],
+          "original_model_tolerance_mm": 1e-07,
+          "topology_counts_preserved": {
+            "Solids": 1,
+            "Faces": 796
+          },
+          "topology_wrapper_count_diagnostics": {
+            "native": {
+              "Solids": 1,
+              "Shells": 1,
+              "Faces": 796,
+              "Wires": 806,
+              "Edges": 1390,
+              "Vertexes": 596
+            },
+            "STEP": {
+              "Solids": 1,
+              "Shells": 1,
+              "Faces": 796,
+              "Wires": 806,
+              "Edges": 1390,
+              "Vertexes": 596
+            }
+          },
+          "topology_acceptance_scope": "Exact solid and face counts; exact bidirectional geometric vertex set within1e-6 mm. Shell/wire/edge/duplicate-vertex wrapper counts are diagnostics, consistent with the reference STEP verifier.",
+          "geometry_method": "Established canonical analytic/NURBS supports; indexed support matching; bidirectional on-trim UV witnesses to matched faces; exact topology counts; bidirectional vertex nearest-neighbour proof",
+          "face_bounds_are_matching_diagnostics_only": true,
+          "nearest_trim_scope": "paired_face (stricter than whole-body nearest distance)"
+        }
+      }
+    },
+    "source_RGB_and_named_body_preserved": true,
+    "all_STEP_entity_references_valid": true
+  },
+  "published_binary_bytes_match_final_delivery": true,
+  "full_assembly_fit_approved": false,
+  "manufacturing_verified": false
+}

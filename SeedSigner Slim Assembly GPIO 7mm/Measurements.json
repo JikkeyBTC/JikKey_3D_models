@@ -1,0 +1,81 @@
+{
+  "physical_layer_order": [
+    "Raspberry Pi 7mm",
+    "Bottom support",
+    "LCD HAT"
+  ],
+  "animation_group_order": [
+    "base",
+    "pi_zero",
+    "separator_bottom",
+    "lcd_hat",
+    "enclosure_top"
+  ],
+  "exact_support": {
+    "source": "SeedSigner-New-Designer-Separator-Bottom-v1.step",
+    "source_sha256": "57a215e92e5a991b0a29326b4f0ece5aa1fc3b345cc17b9cbeb95ce2964af07d",
+    "native_bounds_mm": [
+      [
+        5.086724229561679,
+        2.9145887222086295,
+        3.300000309944149
+      ],
+      [
+        70.0867242295617,
+        32.7145887222087,
+        7.700000405311607
+      ]
+    ],
+    "rigid_translation_mm": [
+      35.55400085449219,
+      16.900772094726562,
+      -6.294702529907227
+    ],
+    "foot_tip_z_mm": -2.994702100753784,
+    "upper_shelf_z_mm": 1.4052977561950684,
+    "rotation_degrees_about_Z": 180,
+    "rigid_rotation_matrix": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "scaling": false
+  },
+  "Pi_and_camera_rigid_dz_mm": 0.9254240989685059,
+  "LCD_rigid_translation_mm": [
+    0.07999934628605843,
+    -0.8000014066696167,
+    0.6674245595932007
+  ],
+  "LCD_native_flex_underside_first_contact": {
+    "part": "LCD_FPC_Circuit_12_Underside_Trace",
+    "source_underside_first_stop_z_mm": 1.4052977561950684,
+    "support_upper_shelf_z_mm": 1.4052977561950684,
+    "mounting_land_gap_mm": 0.13700008392333984,
+    "interpretation": "First native flex underside stops on support shelf. Pi mounting lands contact feet; LCD mounting lands have recorded positive gap. This does not certify structural loading on the flex."
+  },
+  "camera_carrier_floor_clearance_mm": 0.9329814910888672,
+  "camera_axis_error_mm": 1.617387147818332e-07,
+  "camera_neutral_material_length_mm": 59.7,
+  "remaining_measured_conditions": {
+    "LCD_FR4_crossing_pin_count": 40,
+    "support_vs_case_finite_pair_count": 1,
+    "Pi_vs_base_finite_pair_count": 21,
+    "LCD_vs_cover_finite_pair_count": 4,
+    "mounting_pitch_support_mm": 23.5,
+    "mounting_pitch_Pi_mm": 23.0,
+    "electrical_engagement_verified": false
+  }
+}
